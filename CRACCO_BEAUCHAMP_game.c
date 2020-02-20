@@ -35,46 +35,18 @@ int main () {
 	
 	scanf("\n%d", &repPlayer);
 	
-<<<<<<< HEAD
 	while(repPlayer!= 1 && repPlayer!= 2 && repPlayer!= 3){
-=======
-<<<<<<< Updated upstream
-	if(repPlayer!= 1 && repPlayer!= 2 && repPlayer!= 3){
-=======
-	while(repPlayer!= 1 && repPlayer!= 2 && repPlayer!= 3){
->>>>>>> Stashed changes
->>>>>>> 3d7aa5fbdb7a0bc65255f30cc2181de267a0a409
 		printf("'Repondez a la question correctement nom d'un bling !'\n");
 		scanf("%d", &repPlayer);
 		
 	}
 	
-<<<<<<< HEAD
 		//SCENAR ROXANE
 		if (repPlayer== 1 && tamponRepPlayer == 0){
 			tamponRepPlayer =1;
 			printf("\nVous arrivez a l'infirmerie et vous tombez nez a nez avec Fransiscain le Praticien.\n");
 			printf("\nFransiscain : Mon enfant, etes vous l'eleve qui viens effectuer son stage chez mon eminente et neanmoins illuminee collegue Roxane la Shamane ?\n"); 
 			printf("\nRoxane n'est pas ici tres cher, elle est dans les jardins de l'ecole.\n");
-=======
-	
-<<<<<<< Updated upstream
-	//SCENAR ROXANE
-	if (repPlayer== 1){
-		tamponRepPlayer ==1;
-		printf("\nVous arrivez a l'infirmerie et vous tombez nez a nez avec Fransiscain le Praticien.\n");
-		printf("\nFransiscain : Mon enfant, etes vous l'eleve qui viens effectuer son stage chez mon eminente et neanmoins illuminee collegue Roxane la Shamane ?\n"); 
-		printf("\nRoxane n'est pas ici tres cher, elle est dans les jardins de l'ecole.\n");
-		printf ("\n1) Se rendre dans les jardins pour trouver Roxane. \n");
-		printf ("\n2) Demander a Fransiscain si il peut s'occupper de vous a la place de Roxane. \n");
-		printf ("\n3) Retourner voir Tapadkeur pour lui dire que Roxane n'est pas la. \n");
-		
-		scanf("%d", &repPlayer);
-			if (repPlayer== 1){
-				
-				
-			}
->>>>>>> 3d7aa5fbdb7a0bc65255f30cc2181de267a0a409
 			
 			printf ("\n************************************************ \n");
 			printf ("\n1) Se rendre dans les jardins pour trouver Roxane. \n");
@@ -128,63 +100,12 @@ int main () {
 		}
 		
 		
-<<<<<<< HEAD
-=======
-=======
-		//SCENAR ROXANE
-		if (repPlayer== 1 && tamponRepPlayer == 0){
-			tamponRepPlayer =1;
-			printf("\nVous arrivez a l'infirmerie et vous tombez nez a nez avec Fransiscain le Praticien.\n");
-			printf("\nFransiscain : Mon enfant, etes vous l'eleve qui viens effectuer son stage chez mon eminente et neanmoins illuminee collegue Roxane la Shamane ?\n"); 
-			printf("\nRoxane n'est pas ici tres cher, elle est dans les jardins de l'ecole.\n");
-			printf ("\n1) Se rendre dans les jardins pour trouver Roxane. \n");
-			printf ("\n2) Demander a Fransiscain si il peut s'occupper de vous a la place de Roxane. \n");
-			printf ("\n3) Retourner voir Tapadkeur pour lui dire que Roxane n'est pas la. \n");
-			
-			scanf("%d", &repPlayer);
-				if (repPlayer== 1 && tamponRepPlayer == 1){
-					
-					
-				}
-				
-				if (repPlayer== 2 && tamponRepPlayer == 1){
-					
-					
-				}
-				
-				if (repPlayer == 3 && tamponRepPlayer == 1){
-					printf ("\nTapadkeur le Directeur : VOUS VOUS FOUTEZ DE MOOOOI ?! VOUS ETES VIRE ! VOUS ETES TELLEMENT VIRE QUE MEME SI JE VOUS REPRENAIS VOUS SERIEZ VIRE PAR DEFAUT ! \n");
-					printf ("\n Vous avez mis le directeur en colère, vous avez perdu, il vaudrait mieux reessayer.... \n");
-					
-				}
-			
-			
-		}
-		
-		//SCENAR POULET
-		if (repPlayer== 2 && tamponRepPlayer == 0){
-			tamponRepPlayer =2;
-			printf("\nVous arrivez dans les cuisines. \n");
-			
-			
-			
-			
-		}
-		
-		
->>>>>>> 3d7aa5fbdb7a0bc65255f30cc2181de267a0a409
 		//SCENAR GRENDEL
 		if (repPlayer== 3 && tamponRepPlayer == 0){
 			tamponRepPlayer =3;
 			printf("\n Vous arrivez devant la vie scolaire.\n");
 			
 			
-<<<<<<< HEAD
-=======
-			
-			
->>>>>>> Stashed changes
->>>>>>> 3d7aa5fbdb7a0bc65255f30cc2181de267a0a409
 		}
 	
 	
