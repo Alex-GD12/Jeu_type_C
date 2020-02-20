@@ -5,6 +5,8 @@
 //Structures
 
 
+//                      printf ("\n \n");
+
 
 //Fonctions 
 
@@ -15,6 +17,8 @@ int main () {
 	int tamponRepPlayer = 0;
 	
 	//Début
+	
+	//INTRO
 	printf ("\n****************************************************************************************************************************************************************\n");
 	printf ("Bienvenu a l'ecole de magie Blingue Premier ! Vous etes un eleve qui a rate sa cinquieme annee et qui est convoque dans le bureau de Tapadkeur le Directeur...");
 	printf ("\n****************************************************************************************************************************************************************\n");
@@ -31,23 +35,60 @@ int main () {
 	while(repPlayer!= 1 && repPlayer!= 2 && repPlayer!= 3){
 		printf("'Repondez a la question correctement nom d'un bling !'\n");
 		scanf("%d", &repPlayer);
+		
 	}
 	
-	if (repPlayer== 1){
-		tamponRepPlayer ==1;
-		printf("\nVous arrivez a l'infirmerie.\n");
-	}
 	
-	if (repPlayer== 2){
-		tamponRepPlayer ==2;
-		printf("\nVous arrivez dans les cuisines. \n");
-	}
-	
-	if (repPlayer== 3){
-		tamponRepPlayer ==3;
-		printf("\n Vous arrivez devant la vie scolaire.\n");
-	}
-	
+		//SCENAR ROXANE
+		if (repPlayer== 1){
+			tamponRepPlayer ==1;
+			printf("\nVous arrivez a l'infirmerie et vous tombez nez a nez avec Fransiscain le Praticien.\n");
+			printf("\nFransiscain : Mon enfant, etes vous l'eleve qui viens effectuer son stage chez mon eminente et neanmoins illuminee collegue Roxane la Shamane ?\n"); 
+			printf("\nRoxane n'est pas ici tres cher, elle est dans les jardins de l'ecole.\n");
+			printf ("\n1) Se rendre dans les jardins pour trouver Roxane. \n");
+			printf ("\n2) Demander a Fransiscain si il peut s'occupper de vous a la place de Roxane. \n");
+			printf ("\n3) Retourner voir Tapadkeur pour lui dire que Roxane n'est pas la. \n");
+			
+			scanf("%d", &repPlayer);
+				if (repPlayer== 1 && tamponRepPlayer == 1){
+					
+					
+				}
+				
+				if (repPlayer== 2 && tamponRepPlayer == 1){
+					
+					
+				}
+				
+				if (repPlayer == 3 && tamponRepPlayer == 1){
+					printf ("\nTapadkeur le Directeur : VOUS VOUS FOUTEZ DE MOOOOI ?! VOUS ETES VIRE ! VOUS ETES TELLEMENT VIRE QUE MEME SI JE VOUS REPRENAIS VOUS SERIEZ VIRE PAR DEFAUT ! \n");
+					printf ("\n Vous avez mis le directeur en colère, vous avez perdu, il vaudrait mieux reessayer.... \n");
+					
+				}
+			
+			
+		}
+		
+		//SCENAR POULET
+		if (repPlayer== 2){
+			tamponRepPlayer ==2;
+			printf("\nVous arrivez dans les cuisines. \n");
+			
+			
+			
+			
+		}
+		
+		
+		//SCENAR GRENDEL
+		if (repPlayer== 3){
+			tamponRepPlayer ==3;
+			printf("\n Vous arrivez devant la vie scolaire.\n");
+			
+			
+			
+			
+		}
 	
 	
 	
