@@ -54,7 +54,9 @@ int main () {
 			printf ("\n3) Retourner voir Tapadkeur pour lui dire que Roxane n'est pas la. \n");
 			printf ("\n************************************************ \n");
 			
+			//Arrivee jardins
 			scanf("%d", &repPlayer);
+				
 				if (repPlayer== 1 && tamponRepPlayer == 1){
 					tamponRepPlayer = 1;
 					 printf ("\nVous arrivez dans les jardins et entendez Roxane et son fort accent senegalais.\n");
@@ -67,6 +69,7 @@ int main () {
 					printf ("\n3) Vous allez directement proposer votre aide a Roxane pour trouver les plantes en question. \n");
 					printf ("\n************************************************ \n");
 					
+					//
 					scanf("%d", &repPlayer);
 						if (repPlayer== 1 && tamponRepPlayer == 1){
 							tamponRepPlayer=1;
@@ -83,11 +86,167 @@ int main () {
 							printf ("\n Grendel : Tiens ! T'es le gamin en stage avec Roxane, non ? Qu'est-ce que tu fiche la ?\n");
 							printf ("\n************************************************ \n");
 							printf ("\n1) Vous lui demandez où trouver le Jardinier.\n");
-							printf ("\n2) Vous lui demandez d'aller aider Roxane.\n");
-							printf ("\n3) Vous lui demandez s'il veut bien vous prendre en stage à la place de Roxane, il a quand même l'air moins bizarre. \n");
+							printf ("\n2) Vous lui demandez s'il veut bien vous prendre en stage à la place de Roxane, il a quand meme l'air moins bizarre. \n");
+							printf ("\n3) Vous lui demandez d'aller aider Roxane.\n");
 							printf ("\n************************************************ \n");
 							
 							scanf("%d", &repPlayer);
+								if (repPlayer== 1 && tamponRepPlayer == 2){
+									tamponRepPlayer=1;
+										printf ("\n Grendel : Mc Krame ? Aux dernieres nouvelles il est parti dans la foret, en dehors de l'ecole, pour verifier la pousse des boulots a feuilles d'or que le Directeur a fait planter.\n");
+										printf ("\n Et n'ai pas peur de ce que les eleves raconte. Il parrait qu'il y a quelque chose dans les bois, mais c'est juste un gros ecureuil, ca fait des annees qu'il vit la bas.\n");
+										printf ("\n************************************************ \n");
+										printf ("\n1) Vous le remerciez et vous rendez dans les bois.\n");
+										printf ("\n2) Vous commencez a en avoir assez et retournez voir le Directeur pour lui dire ce que vous pensez de son ecole et de ce jeu\n");
+										printf ("\n3) Finalement, ça ne vaut peut-etre pas le coup, s'il y a quelque chose dans les bois... autant retourner voir Roxane.\n");
+										printf ("\n************************************************ \n");
+										
+										scanf("%d", &repPlayer);
+											if (repPlayer== 1 && tamponRepPlayer == 1){
+												tamponRepPlayer=1;
+												
+											}
+											
+											if (repPlayer== 2 && tamponRepPlayer == 1){
+												tamponRepPlayer=2;
+												printf ("\n Le Directeur est pour le moins... vexe. Vous etes renvoye. Mais vous pourrez toujours reessayer...\n");
+											}
+											
+											if (repPlayer== 3 && tamponRepPlayer == 1){
+												tamponRepPlayer=3;
+												printf ("\n Vous retournez dans les jardins pour aider Roxane\n");
+												printf ("\n Roxane : Ah tu tombe bien toi, la dis donc ! He je sais que Tapadkoeur il t'a demande de faire un stage avec moi, alors tu sais tu vas pouvoir m'aider mon petit, la dis donc ! \n");
+												printf ("\n J'ai besoin de trouver une fleur poussee au vent des landes de pierres pour en faire un RAGOUT qui me permettra de communiquer avec les ESPRITS\n");
+												printf ("\n Le probleme c'est que je ne sais pas du tout a quoi c'est que ressemble cette satane fleur, je ne sais pas laquelle de ces trois la c'est et le Jardinier il n'est pas la pour aider !\n");
+												printf ("\n Alors laquelle de ces trois la tu choisirait, toi, la dis donc ?\n");
+												printf ("\n************************************************ \n");
+												printf ("\n1) La fleur blanche a taches vertes et a tige jaune.\n");
+												printf ("\n2) La fleur verte a taches jaunes et a tige blanche. \n");
+												printf ("\n3) La fleur jaune a taches blanches et a tige verte.\n");
+												printf ("\n************************************************ \n");
+												
+												scanf("%d", &repPlayer);
+													if(repPlayer== 1 && tamponRepPlayer == 3){
+														tamponRepPlayer=1;
+														printf ("\n Mais vous etes fou ? On ne touche pas une fleur blanche a taches vertes et a tige jaune, tout le monde le sais !\n");
+														printf ("\n Vous êtes victime d'une infection à la main et passerez le reste des vacances à l'infirmerie, a subir les remedes schamaniques de Roxane...\n");
+														printf ("\n Peut-être vaudrait-il mieux recommencer la partie...\n");
+													}
+													
+																										
+													if(repPlayer== 2 && tamponRepPlayer == 3){
+														tamponRepPlayer=3;
+														printf ("\n Mais vous etes fou ? On ne touche pas une fleur verte a taches jaunes et a tige blanche, tout le monde le sais !\n");
+														printf ("\n Vous êtes immédiatement empoisonné et mourrez sur le coup. Voilà qui risque de faire desordre dans les papiers de l'ecole... heureusement, nous avons un necromancien.\n");
+														printf ("\n Vous pourrez peut-être recommencer la partie...\n");
+													}
+													
+													if(repPlayer== 3 && tamponRepPlayer == 3){
+														tamponRepPlayer=3;
+														printf ("\n Vous avez bien choisit ! Heureusement que vous vous souveniez de vos cours. Vous vous en souveniez, non ?\n");
+														printf ("\n Peu importe, Roxane est bien contente que vous lui ayez choisit une fleur et vous rentrez tous deux à l'infirmerie, ou vous retrouvez Franciskain le Praticien.\n");
+														printf ("\n Franciskain : Roxane ! Qu'est-ce que vous etes encore en train de preparer la ? Quelle sorte d'impiete allez vous encore repandre en ce lieu saint ?\n");
+														printf ("\n Roxane : La dis donc Franciskain vous n'allez pas commencer a m'enquiquiner sinon je vous jure que je vais vous faire comprendre pourquoi personne ne connait l'ingredient secret de mon RAGOUT !\n");
+														printf ("\n C'est parce que c'est eux l'ingredient secret !\n");
+														printf ("\n Franciskain : Impietes ! Sacrileges ! Mon enfant, qu'en pensez-vous ?\n");
+														printf ("\n1) Refuser de s'en meler.\n");
+														printf ("\n2) Prendre le parti de Roxane.\n");
+														printf ("\n3) Prendre le parti de Franciskain le Praticien. \n");
+														printf ("\n************************************************ \n");
+														
+														scanf("%d", &repPlayer);
+															if(repPlayer== 1 && tamponRepPlayer == 3){
+																tamponRepPlayer=1;
+																printf ("\n Roxane et Franciscain ne sont pas souvent d'accord, mais votre manque d'implication fait concensus. Une tres mauvaise facon de commencer votre stage...\n");
+																printf ("\n Vous etes renvoye... peut etre vaudrait-il mieux recommencer du debut et faire vos preuves.\n");
+															}
+															
+															if(repPlayer== 2 && tamponRepPlayer == 3){
+																tamponRepPlayer=2;
+																printf ("\n Roxane : AHA ! vous voyez Franciscain, le gamin il est d'accord avec moi, dis donc ! et la verite sort de la bouche des ENFANTS. Viens petit, on va aller preparer notre RAGOUT pour le Directeur\n");
+																printf ("\n Ce n'est pas vraiment votre faute. Vous ne saviez pas que ca serait pour Tapadkoeur. Ni que ca serait si mauvais.\n");
+																printf ("\n Ni qu'il vous accuserait parce qu'il ne peut pas faire renvoyer Roxane...\n");
+															}
+															
+															if(repPlayer== 3 && tamponRepPlayer == 3){
+																tamponRepPlayer=3;
+																printf ("\n Franciscain : Ah ! brave enfant ! en voila au moins un ici dont l'ame sera sauvee !\n");
+																printf ("\n Votre ame est peut-etre sauvee mais, pour votre stage, c'est mal parti. Vous venez de vexer attrocement Roxane, vous etes vire. \n");
+																printf("\n Tapadkoeur ne vous laissera pas de seconde chance...peut etre vaudrait-il mieux recommencer du debut et faire vos preuves.\n");
+															}
+													}
+
+											}
+														
+								}						
+								
+								if (repPlayer== 2 && tamponRepPlayer == 2){
+									tamponRepPlayer=2;
+									printf ("\n \n");
+								}
+								
+								if (repPlayer== 3 && tamponRepPlayer == 2){
+									tamponRepPlayer=3;
+									printf ("\n Grendel : Oulah, non. J'ai beaucoup trop de trucs a faire, desole. Tu devrais plutot retourner aider Roxane, apres tout tu es la pour ca.\n");
+									printf ("\n Vous retournez dans les jardins pour aider Roxane\n");
+									printf ("\n Roxane : Ah tu tombe bien toi, la dis donc ! He je sais que Tapadkoeur il t'a demande de faire un stage avec moi, alors tu sais tu vas pouvoir m'aider mon petit, la dis donc ! \n");
+									printf ("\n J'ai besoin de trouver une fleur poussee au vent des landes de pierres pour en faire un RAGOUT qui me permettra de communiquer avec les ESPRITS\n");
+									printf ("\n Le probleme c'est que je ne sais pas du tout a quoi c'est que ressemble cette satane fleur, je ne sais pas laquelle de ces trois la c'est et le Jardinier il n'est pas la pour aider !\n");
+									printf ("\n Alors laquelle de ces trois la tu choisirait, toi, la dis donc ?\n");
+									printf ("\n************************************************ \n");
+									printf ("\n1) La fleur blanche a taches vertes et a tige jaune.\n");
+									printf ("\n2) La fleur jaune a taches blanches et a tige verte.\n");
+									printf ("\n3) La fleur verte a taches jaunes et a tige blanche. \n");
+									printf ("\n************************************************ \n");
+									
+									scanf("%d", &repPlayer);
+										if(repPlayer== 1 && tamponRepPlayer == 3){
+											tamponRepPlayer=1;
+											printf ("\n Mais vous etes fou ? On ne touche pas une fleur blanche a taches vertes et a tige jaune, tout le monde le sais !\n");
+											printf ("\n Vous êtes victime d'une infection à la main et passerez le reste des vacances à l'infirmerie, a subir les remedes schamaniques de Roxane...\n");
+											printf ("\n Peut-être vaudrait-il mieux recommencer la partie...\n");
+										}
+										
+										if(repPlayer== 2 && tamponRepPlayer == 3){
+											tamponRepPlayer=2;
+											printf ("\n Vous avez bien choisit ! Heureusement que vous vous souveniez de vos cours. Vous vous en souveniez, non ?\n");
+											printf ("\n Peu importe, Roxane est bien contente que vous lui ayez choisit une fleur et vous rentrez tous deux à l'infirmerie, ou vous retrouvez Franciskain le Praticien.\n");
+											printf ("\n Franciskain : Roxane ! Qu'est-ce que vous etes encore en train de preparer la ? Quelle sorte d'impiete allez vous encore repandre en ce lieu saint ?\n");
+											printf ("\n Roxane : La dis donc Franciskain vous n'allez pas commencer a m'enquiquiner sinon je vous jure que je vais vous faire comprendre pourquoi personne ne connait l'ingredient secret de mon RAGOUT !\n");
+											printf ("\n C'est parce que c'est eux l'ingredient secret !\n");
+											printf ("\n Franciskain : Impietes ! Sacrileges ! Mon enfant, qu'en pensez-vous ?\n");
+											printf ("\n1) Refuser de s'en meler.\n");
+											printf ("\n2) Prendre le parti de Roxane.\n");
+											printf ("\n3) Prendre le parti de Franciskain le Praticien. \n");
+											printf ("\n************************************************ \n");
+											
+											scanf("%d", &repPlayer);
+												if(repPlayer== 1 && tamponRepPlayer == 2){
+													printf ("\n Roxane et Franciscain ne sont pas souvent d'accord, mais votre manque d'implication fait concensus. Une tres mauvaise facon de commencer votre stage...\n");
+													printf ("\n Vous etes renvoye... peut etre vaudrait-il mieux recommencer du debut et faire vos preuves.\n");
+												}
+												
+												if(repPlayer== 2 && tamponRepPlayer == 2){
+													printf ("\n Roxane : AHA ! vous voyez Franciscain, le gamin il est d'accord avec moi, dis donc ! et la verite sort de la bouche des ENFANTS. Viens petit, on va aller preparer notre RAGOUT pour le Directeur\n");
+													printf ("\n Ce n'est pas vraiment votre faute. Vous ne saviez pas que ca serait pour Tapadkoeur. Ni que ca serait si mauvais.\n");
+													printf ("\n Ni qu'il vous accuserait parce qu'il ne peut pas faire renvoyer Roxane...\n");
+												}
+												
+												if(repPlayer== 3 && tamponRepPlayer == 2){
+													printf ("\n Franciscain : Ah ! brave enfant ! en voila au moins un ici dont l'ame sera sauvee !\n");
+													printf ("\n Votre ame est peut-etre sauvee mais, pour votre stage, c'est mal parti. Vous venez de vexer attrocement Roxane, vous etes vire. \n");
+													printf("\n Tapadkoeur ne vous laissera pas de seconde chance...peut etre vaudrait-il mieux recommencer du debut et faire vos preuves.\n");
+												}
+										}
+										
+										if(repPlayer== 3 && tamponRepPlayer == 3){
+											tamponRepPlayer=3;
+											printf ("\n Mais vous etes fou ? On ne touche pas une fleur verte a taches jaunes et a tige blanche, tout le monde le sais !\n");
+											printf ("\n Vous êtes immédiatement empoisonné et mourrez sur le coup. Voilà qui risque de faire desordre dans les papiers de l'ecole... heureusement, nous avons un necromancien.\n");
+											printf ("\n Vous pourrez peut-être recommencer la partie...\n");
+										}
+								}
+								
 						}
 						
 						if (repPlayer== 3 && tamponRepPlayer == 1){
@@ -104,12 +263,14 @@ int main () {
 							
 							scanf("%d", &repPlayer);
 								if(repPlayer== 1 && tamponRepPlayer == 3){
+									tamponRepPlayer=1;
 									printf ("\n Mais vous etes fou ? On ne touche pas une fleur blanche a taches vertes et a tige jaune, tout le monde le sais !\n");
 									printf ("\n Vous êtes victime d'une infection à la main et passerez le reste des vacances à l'infirmerie, a subir les remedes schamaniques de Roxane...\n");
 									printf ("\n Peut-être vaudrait-il mieux recommencer la partie...\n");
 								}
 								
 								if(repPlayer== 2 && tamponRepPlayer == 3){
+									tamponRepPlayer=2;
 									printf ("\n Vous avez bien choisit ! Heureusement que vous vous souveniez de vos cours. Vous vous en souveniez, non ?\n");
 									printf ("\n Peu importe, Roxane est bien contente que vous lui ayez choisit une fleur et vous rentrez tous deux à l'infirmerie, ou vous retrouvez Franciskain le Praticien.\n");
 									printf ("\n Franciskain : Roxane ! Qu'est-ce que vous etes encore en train de preparer la ? Quelle sorte d'impiete allez vous encore repandre en ce lieu saint ?\n");
@@ -122,9 +283,26 @@ int main () {
 									printf ("\n************************************************ \n");
 									
 									scanf("%d", &repPlayer);
+										if(repPlayer== 1 && tamponRepPlayer == 2){
+											printf ("\n Roxane et Franciscain ne sont pas souvent d'accord, mais votre manque d'implication fait concensus. Une tres mauvaise facon de commencer votre stage...\n");
+											printf ("\n Vous etes renvoye... peut etre vaudrait-il mieux recommencer du debut et faire vos preuves.\n");
+										}
+										
+										if(repPlayer== 2 && tamponRepPlayer == 2){
+											printf ("\n Roxane : AHA ! vous voyez Franciscain, le gamin il est d'accord avec moi, dis donc ! et la verite sort de la bouche des ENFANTS. Viens petit, on va aller preparer notre RAGOUT pour le Directeur\n");
+											printf ("\n Ce n'est pas vraiment votre faute. Vous ne saviez pas que ca serait pour Tapadkoeur. Ni que ca serait si mauvais.\n");
+											printf ("\n Ni qu'il vous accuserait parce qu'il ne peut pas faire renvoyer Roxane...\n");
+										}
+										
+										if(repPlayer== 3 && tamponRepPlayer == 2){
+											printf ("\n Franciscain : Ah ! brave enfant ! en voila au moins un ici dont l'ame sera sauvee !\n");
+											printf ("\n Votre ame est peut-etre sauvee mais, pour votre stage, c'est mal parti. Vous venez de vexer attrocement Roxane, vous etes vire. \n");
+											printf("\n Tapadkoeur ne vous laissera pas de seconde chance...peut etre vaudrait-il mieux recommencer du debut et faire vos preuves.\n");
+										}
 								}
 								
 								if(repPlayer== 3 && tamponRepPlayer == 3){
+									tamponRepPlayer=3;
 									printf ("\n Mais vous etes fou ? On ne touche pas une fleur verte a taches jaunes et a tige blanche, tout le monde le sais !\n");
 									printf ("\n Vous êtes immédiatement empoisonné et mourrez sur le coup. Voilà qui risque de faire desordre dans les papiers de l'ecole... heureusement, nous avons un necromancien.\n");
 									printf ("\n Vous pourrez peut-être recommencer la partie...\n");
@@ -144,6 +322,81 @@ int main () {
 					printf ("\n2) Accepter volontier de rendre service a l'Eglise (LUI). \n");
 					printf ("\n3) S'enfuir immediatement et se precipiter vers les dortoirs. (Parce que cet homme est clairement malsain). \n");
 					printf ("\n************************************************ \n");
+					
+					scanf("%d", &repPlayer);
+						if (repPlayer== 1 && tamponRepPlayer == 2){
+							tamponRepPlayer=1;
+							printf ("\n Vous retournez dans les jardins pour aider Roxane\n");
+							printf ("\n Roxane : Ah tu tombe bien toi, la dis donc ! He je sais que Tapadkoeur il t'a demande de faire un stage avec moi, alors tu sais tu vas pouvoir m'aider mon petit, la dis donc ! \n");
+							printf ("\n J'ai besoin de trouver une fleur poussee au vent des landes de pierres pour en faire un RAGOUT qui me permettra de communiquer avec les ESPRITS\n");
+							printf ("\n Le probleme c'est que je ne sais pas du tout a quoi c'est que ressemble cette satane fleur, je ne sais pas laquelle de ces trois la c'est et le Jardinier il n'est pas la pour aider !\n");
+							printf ("\n Alors laquelle de ces trois la tu choisirait, toi, la dis donc ?\n");
+							printf ("\n************************************************ \n");
+							printf ("\n1) La fleur blanche a taches vertes et a tige jaune.\n");
+							printf ("\n2) La fleur verte a taches jaunes et a tige blanche. \n");
+							printf ("\n3) La fleur jaune a taches blanches et a tige verte.\n");
+							printf ("\n************************************************ \n");
+												
+							scanf("%d", &repPlayer);
+								if(repPlayer== 1 && tamponRepPlayer == 1){
+									tamponRepPlayer=1;
+									printf ("\n Mais vous etes fou ? On ne touche pas une fleur blanche a taches vertes et a tige jaune, tout le monde le sais !\n");
+									printf ("\n Vous êtes victime d'une infection à la main et passerez le reste des vacances à l'infirmerie, a subir les remedes schamaniques de Roxane...\n");
+									printf ("\n Peut-être vaudrait-il mieux recommencer la partie...\n");
+								}
+													
+																										
+								if(repPlayer== 2 && tamponRepPlayer == 1){
+									tamponRepPlayer=3;
+									printf ("\n Mais vous etes fou ? On ne touche pas une fleur verte a taches jaunes et a tige blanche, tout le monde le sais !\n");
+									printf ("\n Vous êtes immédiatement empoisonné et mourrez sur le coup. Voilà qui risque de faire desordre dans les papiers de l'ecole... heureusement, nous avons un necromancien.\n");
+									printf ("\n Vous pourrez peut-être recommencer la partie...\n");
+								}
+													
+								if(repPlayer== 3 && tamponRepPlayer == 1){
+									tamponRepPlayer=3;
+									printf ("\n Vous avez bien choisit ! Heureusement que vous vous souveniez de vos cours. Vous vous en souveniez, non ?\n");
+									printf ("\n Peu importe, Roxane est bien contente que vous lui ayez choisit une fleur et vous rentrez tous deux à l'infirmerie, ou vous retrouvez Franciskain le Praticien.\n");
+									printf ("\n Franciskain : Roxane ! Qu'est-ce que vous etes encore en train de preparer la ? Quelle sorte d'impiete allez vous encore repandre en ce lieu saint ?\n");
+									printf ("\n Roxane : La dis donc Franciskain vous n'allez pas commencer a m'enquiquiner sinon je vous jure que je vais vous faire comprendre pourquoi personne ne connait l'ingredient secret de mon RAGOUT !\n");
+									printf ("\n C'est parce que c'est eux l'ingredient secret !\n");
+									printf ("\n Franciskain : Impietes ! Sacrileges ! Mon enfant, qu'en pensez-vous ?\n");
+									printf ("\n1) Refuser de s'en meler.\n");
+									printf ("\n2) Prendre le parti de Roxane.\n");
+									printf ("\n3) Prendre le parti de Franciskain le Praticien. \n");
+									printf ("\n************************************************ \n");
+														
+									scanf("%d", &repPlayer);
+										if(repPlayer== 1 && tamponRepPlayer == 3){
+											tamponRepPlayer=1;
+											printf ("\n Roxane et Franciscain ne sont pas souvent d'accord, mais votre manque d'implication fait concensus. Une tres mauvaise facon de commencer votre stage...\n");
+											printf ("\n Vous etes renvoye... peut etre vaudrait-il mieux recommencer du debut et faire vos preuves.\n");
+										}
+															
+										if(repPlayer== 2 && tamponRepPlayer == 3){
+											tamponRepPlayer=2;
+											printf ("\n Roxane : AHA ! vous voyez Franciscain, le gamin il est d'accord avec moi, dis donc ! et la verite sort de la bouche des ENFANTS. Viens petit, on va aller preparer notre RAGOUT pour le Directeur\n");
+											printf ("\n Ce n'est pas vraiment votre faute. Vous ne saviez pas que ca serait pour Tapadkoeur. Ni que ca serait si mauvais.\n");
+											printf ("\n Ni qu'il vous accuserait parce qu'il ne peut pas faire renvoyer Roxane...\n");
+										}
+															
+										if(repPlayer== 3 && tamponRepPlayer == 3){
+											tamponRepPlayer=3;
+											printf ("\n Franciscain : Ah ! brave enfant ! en voila au moins un ici dont l'ame sera sauvee !\n");
+											printf ("\n Votre ame est peut-etre sauvee mais, pour votre stage, c'est mal parti. Vous venez de vexer attrocement Roxane, vous etes vire. \n");
+											printf("\n Tapadkoeur ne vous laissera pas de seconde chance...peut etre vaudrait-il mieux recommencer du debut et faire vos preuves.\n");
+										}
+								}
+
+						}
+						
+						if(repPlayer== 2 && tamponRepPlayer == 2){
+							tamponRepPlayer=2;
+						}
+							
+						if(repPlayer== 3 && tamponRepPlayer == 2){
+							tamponRepPlayer=3;
+						}
 				}
 				
 				if (repPlayer == 3 && tamponRepPlayer == 1){
