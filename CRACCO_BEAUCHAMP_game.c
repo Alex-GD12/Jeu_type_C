@@ -241,12 +241,12 @@ int main () {
 																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 																					printf ("\n************************************************ \n");
-																					printf ("\n Vous lui jetez le bocal dessus.\n");
-																					printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-																					printf ("\n Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n1) Vous lui jetez le bocal dessus.\n");
+																					printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 																					printf ("\n************************************************ \n");
 																					
-																					
+																					scanf("%d", &repPlayer);
 																					if(repPlayer==1 && tamponRepPlayer==2){
 																						tamponRepPlayer=4;
 																						printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -2797,12 +2797,12 @@ int main () {
 																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 																					printf ("\n************************************************ \n");
-																					printf ("\n Vous lui jetez le bocal dessus.\n");
-																					printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-																					printf ("\n Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n1) Vous lui jetez le bocal dessus.\n");
+																					printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 																					printf ("\n************************************************ \n");
 																					
-																					
+																					scanf("%d", &repPlayer);
 																					if(repPlayer==1 && tamponRepPlayer==2){
 																						tamponRepPlayer=4;
 																						printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -2924,12 +2924,12 @@ int main () {
 																				printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 																				printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 																				printf ("\n************************************************ \n");
-																				printf ("\n Vous lui jetez le bocal dessus.\n");
-																				printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-																				printf ("\n Vous changez d'avis et tournez les talons.\n");
+																				printf ("\n1) Vous lui jetez le bocal dessus.\n");
+																				printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																				printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 																				printf ("\n************************************************ \n");
-																					
-																					
+																				
+																				scanf("%d", &repPlayer);	
 																				if(repPlayer==1 && tamponRepPlayer==2){
 																					tamponRepPlayer=4;
 																					printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -3118,12 +3118,12 @@ int main () {
 																			printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 																			printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 																			printf ("\n************************************************ \n");
-																			printf ("\n Vous lui jetez le bocal dessus.\n");
-																			printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-																			printf ("\n Vous changez d'avis et tournez les talons.\n");
+																			printf ("\n1) Vous lui jetez le bocal dessus.\n");
+																			printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																			printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 																			printf ("\n************************************************ \n");
 																			
-																			
+																			scanf("%d", &repPlayer);
 																			if(repPlayer==1 && tamponRepPlayer==2){
 																				tamponRepPlayer=4;
 																				printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -3727,12 +3727,12 @@ int main () {
 																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 																					printf ("\n************************************************ \n");
-																					printf ("\n Vous lui jetez le bocal dessus.\n");
-																					printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-																					printf ("\n Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n1) Vous lui jetez le bocal dessus.\n");
+																					printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 																					printf ("\n************************************************ \n");
 																					
-																					
+																					scanf("%d", &repPlayer);
 																					if(repPlayer==1 && tamponRepPlayer==2){
 																						tamponRepPlayer=4;
 																						printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -4671,12 +4671,12 @@ int main () {
 																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 																					printf ("\n************************************************ \n");
-																					printf ("\n Vous lui jetez le bocal dessus.\n");
-																					printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-																					printf ("\n Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n1) Vous lui jetez le bocal dessus.\n");
+																					printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 																					printf ("\n************************************************ \n");
 																					
-																					
+																					scanf("%d", &repPlayer);
 																					if(repPlayer==1 && tamponRepPlayer==2){
 																						tamponRepPlayer=4;
 																						printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -4798,12 +4798,12 @@ int main () {
 																				printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 																				printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 																				printf ("\n************************************************ \n");
-																				printf ("\n Vous lui jetez le bocal dessus.\n");
-																				printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-																				printf ("\n Vous changez d'avis et tournez les talons.\n");
+																				printf ("\n1) Vous lui jetez le bocal dessus.\n");
+																				printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																				printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 																				printf ("\n************************************************ \n");
-																					
-																					
+																				
+																				scanf("%d", &repPlayer);	
 																				if(repPlayer==1 && tamponRepPlayer==2){
 																					tamponRepPlayer=4;
 																					printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -4992,12 +4992,12 @@ int main () {
 																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 																					printf ("\n************************************************ \n");
-																					printf ("\n Vous lui jetez le bocal dessus.\n");
-																					printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-																					printf ("\n Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n1) Vous lui jetez le bocal dessus.\n");
+																					printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 																					printf ("\n************************************************ \n");
 																					
-																					
+																					scanf("%d", &repPlayer);
 																					if(repPlayer==1 && tamponRepPlayer==2){
 																						tamponRepPlayer=4;
 																						printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -5119,12 +5119,12 @@ int main () {
 																				printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 																				printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 																				printf ("\n************************************************ \n");
-																				printf ("\n Vous lui jetez le bocal dessus.\n");
-																				printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-																				printf ("\n Vous changez d'avis et tournez les talons.\n");
+																				printf ("\n1) Vous lui jetez le bocal dessus.\n");
+																				printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																				printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 																				printf ("\n************************************************ \n");
-																					
-																					
+																				
+																				scanf("%d", &repPlayer);	
 																				if(repPlayer==1 && tamponRepPlayer==2){
 																					tamponRepPlayer=4;
 																					printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -5422,12 +5422,12 @@ int main () {
 																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 																					printf ("\n************************************************ \n");
-																					printf ("\n Vous lui jetez le bocal dessus.\n");
-																					printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-																					printf ("\n Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n1) Vous lui jetez le bocal dessus.\n");
+																					printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 																					printf ("\n************************************************ \n");
 																					
-																					
+																					scanf("%d", &repPlayer);
 																					if(repPlayer==1 && tamponRepPlayer==2){
 																						tamponRepPlayer=4;
 																						printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -5784,12 +5784,12 @@ int main () {
 																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 																					printf ("\n************************************************ \n");
-																					printf ("\n Vous lui jetez le bocal dessus.\n");
-																					printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-																					printf ("\n Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n1) Vous lui jetez le bocal dessus.\n");
+																					printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 																					printf ("\n************************************************ \n");
 																					
-																					
+																					scanf("%d", &repPlayer);
 																					if(repPlayer==1 && tamponRepPlayer==2){
 																						tamponRepPlayer=4;
 																						printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -6101,16 +6101,16 @@ int main () {
 																		}
 																		
 																		if(repPlayer==2 && tamponRepPlayer==2){
-																			tamponRepPlayer=2;
-																			printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
-																			printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
-																			printf ("\n************************************************ \n");
-																			printf ("\n Vous lui jetez le bocal dessus.\n");
-																			printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-																			printf ("\n Vous changez d'avis et tournez les talons.\n");
-																			printf ("\n************************************************ \n");
-																			
-																			
+																					tamponRepPlayer=2;
+																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																					printf ("\n************************************************ \n");
+																					printf ("\n1) Vous lui jetez le bocal dessus.\n");
+																					printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n3) Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n************************************************ \n");
+																					
+																			scanf("%d", &repPlayer);
 																			if(repPlayer==1 && tamponRepPlayer==2){
 																				tamponRepPlayer=4;
 																				printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -6622,12 +6622,12 @@ int main () {
 															printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 															printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 															printf ("\n************************************************ \n");
-															printf ("\n Vous lui jetez le bocal dessus.\n");
-															printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-															printf ("\n Vous changez d'avis et tournez les talons.\n");
+															printf ("\n1) Vous lui jetez le bocal dessus.\n");
+															printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+															printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 															printf ("\n************************************************ \n");
 															
-															
+															scanf("%d", &repPlayer);
 															if(repPlayer==1 && tamponRepPlayer==2){
 																tamponRepPlayer=4;
 																printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -6943,12 +6943,12 @@ int main () {
 														printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 														printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 														printf ("\n************************************************ \n");
-														printf ("\n Vous lui jetez le bocal dessus.\n");
-														printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-														printf ("\n Vous changez d'avis et tournez les talons.\n");
+														printf ("\n1) Vous lui jetez le bocal dessus.\n");
+														printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+														printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 														printf ("\n************************************************ \n");
 														
-														
+														scanf("%d", &repPlayer);
 														if(repPlayer==1 && tamponRepPlayer==2){
 															tamponRepPlayer=4;
 															printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -7458,12 +7458,12 @@ int main () {
 																printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 																printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 																printf ("\n************************************************ \n");
-																printf ("\n Vous lui jetez le bocal dessus.\n");
-																printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-																printf ("\n Vous changez d'avis et tournez les talons.\n");
+																printf ("\n1) Vous lui jetez le bocal dessus.\n");
+																printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 																printf ("\n************************************************ \n");
 																
-																
+																scanf("%d", &repPlayer);
 																if(repPlayer==1 && tamponRepPlayer==2){
 																	tamponRepPlayer=4;
 																	printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -7585,12 +7585,12 @@ int main () {
 															printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 															printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 															printf ("\n************************************************ \n");
-															printf ("\n Vous lui jetez le bocal dessus.\n");
-															printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-															printf ("\n Vous changez d'avis et tournez les talons.\n");
+															printf ("\n1) Vous lui jetez le bocal dessus.\n");
+															printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+															printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 															printf ("\n************************************************ \n");
-																
-																
+															
+															scanf("%d", &repPlayer);	
 															if(repPlayer==1 && tamponRepPlayer==2){
 																tamponRepPlayer=4;
 																printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -7773,12 +7773,12 @@ int main () {
 															printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 															printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 															printf ("\n************************************************ \n");
-															printf ("\n Vous lui jetez le bocal dessus.\n");
-															printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-															printf ("\n Vous changez d'avis et tournez les talons.\n");
+															printf ("\n1) Vous lui jetez le bocal dessus.\n");
+															printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+															printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 															printf ("\n************************************************ \n");
 															
-															
+															scanf("%d", &repPlayer);
 															if(repPlayer==1 && tamponRepPlayer==2){
 																tamponRepPlayer=4;
 																printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -7900,12 +7900,12 @@ int main () {
 														printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 														printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 														printf ("\n************************************************ \n");
-														printf ("\n Vous lui jetez le bocal dessus.\n");
-														printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-														printf ("\n Vous changez d'avis et tournez les talons.\n");
+														printf ("\n1) Vous lui jetez le bocal dessus.\n");
+														printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+														printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 														printf ("\n************************************************ \n");
-															
-															
+														
+														scanf("%d", &repPlayer);	
 														if(repPlayer==1 && tamponRepPlayer==2){
 															tamponRepPlayer=4;
 															printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -8182,12 +8182,12 @@ int main () {
 															printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 															printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 															printf ("\n************************************************ \n");
-															printf ("\n Vous lui jetez le bocal dessus.\n");
-															printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-															printf ("\n Vous changez d'avis et tournez les talons.\n");
+															printf ("\n1) Vous lui jetez le bocal dessus.\n");
+															printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+															printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 															printf ("\n************************************************ \n");
 															
-															
+															scanf("%d", &repPlayer);
 															if(repPlayer==1 && tamponRepPlayer==2){
 																tamponRepPlayer=4;
 																printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -8865,12 +8865,12 @@ int main () {
 															printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 															printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 															printf ("\n************************************************ \n");
-															printf ("\n Vous lui jetez le bocal dessus.\n");
-															printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-															printf ("\n Vous changez d'avis et tournez les talons.\n");
+															printf ("\n1) Vous lui jetez le bocal dessus.\n");
+															printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+															printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 															printf ("\n************************************************ \n");
 															
-															
+															scanf("%d", &repPlayer);
 															if(repPlayer==1 && tamponRepPlayer==2){
 																tamponRepPlayer=4;
 																printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
@@ -9186,12 +9186,12 @@ int main () {
 													printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
 													printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
 													printf ("\n************************************************ \n");
-													printf ("\n Vous lui jetez le bocal dessus.\n");
-													printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
-													printf ("\n Vous changez d'avis et tournez les talons.\n");
+													printf ("\n1) Vous lui jetez le bocal dessus.\n");
+													printf ("\n2) Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+													printf ("\n3) Vous changez d'avis et tournez les talons.\n");
 													printf ("\n************************************************ \n");
 													
-													
+													scanf("%d", &repPlayer);
 													if(repPlayer==1 && tamponRepPlayer==2){
 														tamponRepPlayer=4;
 														printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
