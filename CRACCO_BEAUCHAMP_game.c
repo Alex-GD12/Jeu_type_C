@@ -38,7 +38,6 @@ int main () {
 	while(repPlayer!= 1 && repPlayer!= 2 && repPlayer!= 3){
 		printf("'Repondez a la question correctement nom d'un bling !'\n");
 		scanf("%d", &repPlayer);
-		
 	}
 	
 		//SCENAR ROXANE
@@ -136,9 +135,294 @@ int main () {
 													}
 													
 													if(repPlayer==2 && tamponRepPlayer==1){
-														tamponRepPlayer=2;
-														printf ("\n \n");
-													}
+														
+																tamponRepPlayer=2;
+																printf ("\n Vous partez au trousses de la bete, bocal en main en prenant garde a ne pas vous faire reperer. Vous n'avez pas encore trouve comment regler ce probleme de taille, apres tout.\n");
+																printf ("\n En arrivant aux murs de l'ecole, vous la voyez penetrer dans l'aile Ouest, l'aile des professeurs, en brisant negligement une fenetre comme s'il n'y avait rien.\n");
+																printf ("\n Vous la suivez discretement en esperant qu'elle ne vous entendra pas. L'aile Ouest, a cette heure-ci, est vide de ses occupants, heureusement.\n");
+																printf ("\n Alors que la creature tourne a l'angle d'un couloir, elle se retourne brusquement dans votre direction !\n");
+																printf ("\n************************************************ \n");
+																printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+																printf ("\n2) Vous lui jetez le bocal dessus dans un reflexe digne d'un belliciste ninja \n");
+																printf ("\n3) Vous vous cachez a l'angle du mur en priant pour qu'une creature aux sens aiguises ne vous remarque pas.\n");
+																printf ("\n************************************************ \n");
+																
+																scanf("%d", &repPlayer);
+																if(repPlayer==1 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n J'ai un scoop pour vous. Vous courez moins vite qu'une manticore.\n");
+																	printf ("\n Vous etes donc sauvagement decede. RIP.\n");
+																	printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+																}
+																
+																if(repPlayer==2 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n Voila qui est embarassant... le bocal rebondit negligement sur la creature qui, vexee, vous devore sur le champ\n");
+																	printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+																}
+																
+																if(repPlayer==3 && tamponRepPlayer==2){
+																	tamponRepPlayer=3;
+																	printf ("\n Vous vous cachez immediatement a l'angle du mur, en vous faisant le plus petit possible.\n");
+																	printf ("\n La creature fait quelques pas dans votre direction en reniflant bruyament... puis fait demi-tour. Vous avez eu de la chance.\n");
+																	printf ("\n Ou peut-etre pas tant de chance que ca puisque les voix lointaines de deux eleves, arrivant de votre cote du couloir, s'elevent soudain !\n");
+																	printf ("\n Un jeune garçon marchant en chaussettes, le front orne d'un bandeau a cornes de bouc, et une jeune fille portant un manteau noir brode d'or arrivent dans votre direction !\n");
+																	printf ("\n Rancuniere l'Apprentie-Sorciere : Je ne comprend toujours pas pourquoi on cherche ici et pas dans la foret...Bouketin nous a pourtant dit que le bocal serait dans la foret, quand on l'a croise.\n");
+																	printf ("\n Paulo le Nouveau : Parce que, si j'etais une manticore, le premier endroit ou j'irais, c'est ici. Des couloirs vides avec de la bouffe pas loin, c'est pile ce qu'il lui faut.\n");
+																	printf ("\n Oui mais le bocal est ferme...\n");
+																	printf ("\n D'experience, je sais qu'un bocal qui doit rester ferme finit toujours par etre ouvert...\n");
+																	printf ("\n \n");
+																	printf ("\n La manticore ne les a pas encore entendu, mais ca ne saurait tarder...elle se fige et tend ce qui lui sert d'oreille...\n");
+																	printf ("\n************************************************ \n");
+																	printf ("\n1) Vous leur faites signe de se taire en faisant le moins de bruit possible.\n");
+																	printf ("\n2) Vous leur intimmez de se taire immediatement !\n");
+																	printf ("\n3) C'est foutu, vous partez en courant !\n");
+																	printf ("\n************************************************ \n");
+																	
+																	scanf("%d", &repPlayer);
+																	if(repPlayer==1 && tamponRepPlayer==3){
+																		tamponRepPlayer=1;
+																		printf ("\n En approchant, Paulo et Rancuniere vous remarquent, de loin. Rancuniere fronce les sourcils avec agacement devant vos gesticulations silencieuse.\n");
+																		printf ("\n Rancuniere : Qu'est-ce que tu veux, a gesticuler comme un guignol, toi ?\n");
+																		printf ("\n L'injonction de Rancuniere aletre la manticore, qui se retourne brusquement et approche de vous. trop tard, ses yeux se dardent vers vous !\n");
+																		printf ("\n************************************************ \n");
+																		printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+																		printf ("\n2) Vous lui jetez le bocal dessus avec l'energie du desespoir \n");
+																		printf ("\n3) Vous ne bougez plus ! Sa vision est basee sur le mouvement...\n");
+																		printf ("\n************************************************ \n");
+																		
+																		scanf("%d", &repPlayer);
+																		if(repPlayer==1 && tamponRepPlayer==1){
+																			tamponRepPlayer=1;
+																			printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+																			printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+																			printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+																			printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+																			printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+																			printf ("\n Paulo : Evidement qu'il l'a !\n");
+																			printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+																			printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+																			printf ("\n************************************************ \n");
+																			printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+																			printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+																			printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+																			printf ("\n************************************************ \n");
+																			
+																			scanf("%d", &repPlayer);
+																			if(repPlayer==1 && tamponRepPlayer==1){
+																				tamponRepPlayer=4;
+																				printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+																				printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+																			}
+																			
+																			if(repPlayer==2 && tamponRepPlayer==1){
+																				tamponRepPlayer=2;
+																				printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+																				printf ("\n Rancuniere : paulo ! Attrappe !\n");
+																				printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+																				printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+																				
+																				printf ("\n************************************************ \n");
+																				printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+																				printf ("\n2) Vous tentez de recuperer le bocal. \n");
+																				printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+																				printf ("\n************************************************ \n");
+																				
+																				scanf("%d", &repPlayer);
+																				if(repPlayer==1 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+																					printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+																					printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+																				}
+																				
+																				if(repPlayer==2 && tamponRepPlayer==2){
+																					tamponRepPlayer=2;
+																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																					printf ("\n************************************************ \n");
+																					printf ("\n Vous lui jetez le bocal dessus.\n");
+																					printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n************************************************ \n");
+																					
+																					
+																					if(repPlayer==1 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																						printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																						printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																						printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																						printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+																					}
+																					
+																					if(repPlayer==2 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																						printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																						printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																						printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																						printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																						printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																						printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+																					}
+																					
+																					if(repPlayer==3 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																						printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																					}
+																				}
+																				
+																				if(repPlayer==3 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																					printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																				}
+																			}
+																			
+																			if(repPlayer==3 && tamponRepPlayer==1){
+																				tamponRepPlayer=4;
+																				printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+																				printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+																				printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																				printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																				printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																				printf ("\n VICTOIRE... ?\n");
+																			}
+																		}
+																		
+																		if(repPlayer==2 && tamponRepPlayer==1){
+																			tamponRepPlayer=4;
+																			printf ("\n Vous jetez le bocal sur la creature, a bout portant, droit dans son oeil. La bete se redresse en hurlant tandis que le petit recipient roule au sol et que vous vous figez de terreur.\n");
+																			printf ("\n Alors que la maticore tourne vers elle un regard charge de haine et leve une patte griffue pour vous arracher la tete, vous etes soudain repousse sur le mur par une vague d'energie doree.\n");
+																			printf ("\n Rancuniere Paulo ! Le bocal ! \n");
+																			printf ("\n Paulo : Le... oh nom d'un bouc !\n");
+																			printf ("\n En quelques secondes, Paulo le Nouveau s'elance vers le bocal et se jette au sol, glissant sur ses chaussettes pour slider au sol afin d'attrapper le bocal au vol en evitant la patte de la manticore.\n");
+																			printf ("\n Paulo : Rancuniere ! L'incantation !\n");
+																			printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																			printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																			printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																			printf ("\n VICTOIRE... ?\n");
+																		}
+																		
+																		if(repPlayer==3 && tamponRepPlayer==1){
+																			tamponRepPlayer=4;
+																			printf ("\n Ah tiens non. L'evoloution n'a pas permis a un predateur de ne pas voir ses proies. Surprenant. Du fait, les lois de la nature s'appliquent avec violence a votre cas...\n");
+																			printf ("\n Allez, recommencez. Et n'oubliez pas qu'on est pas chez Spielberg, ici...\n");
+																		}
+																	}
+																	
+																	if(repPlayer==2 && tamponRepPlayer==3){
+																		tamponRepPlayer=4;
+																		printf ("\n Crier n'est probablement pas la meilleure idee du monde quand on veut se faire discret.\n");
+																		printf ("\n Je me retiendrais de parler de selection naturelle et vous conseillerais simplement de reessayer... une fois que vous aurez fini d'etre digere.\n");
+																	}
+																	
+																	if(repPlayer==3 && tamponRepPlayer==3){
+																		tamponRepPlayer=3;
+																		printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+																		printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+																		printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+																		printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+																		printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+																		printf ("\n Paulo : Evidement qu'il l'a !\n");
+																		printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+																		printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+																		printf ("\n************************************************ \n");
+																		printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+																		printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+																		printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+																		printf ("\n************************************************ \n");
+																			
+																		scanf("%d", &repPlayer);
+																		if(repPlayer==1 && tamponRepPlayer==3){
+																			tamponRepPlayer=4;
+																			printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+																			printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+																		}
+																			
+																		if(repPlayer==2 && tamponRepPlayer==3){
+																			tamponRepPlayer=2;
+																			printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+																			printf ("\n Rancuniere : paulo ! Attrappe !\n");
+																			printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+																			printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+																				
+																			printf ("\n************************************************ \n");
+																			printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+																			printf ("\n2) Vous tentez de recuperer le bocal. \n");
+																			printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+																			printf ("\n************************************************ \n");
+																				
+																			scanf("%d", &repPlayer);
+																			if(repPlayer==1 && tamponRepPlayer==2){
+																				tamponRepPlayer=4;
+																				printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+																				printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+																				printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+																			}
+																				
+																			if(repPlayer==2 && tamponRepPlayer==2){
+																				tamponRepPlayer=2;
+																				printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																				printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																				printf ("\n************************************************ \n");
+																				printf ("\n Vous lui jetez le bocal dessus.\n");
+																				printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																				printf ("\n Vous changez d'avis et tournez les talons.\n");
+																				printf ("\n************************************************ \n");
+																					
+																					
+																				if(repPlayer==1 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																					printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																					printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																					printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																					printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+																				}
+																					
+																				if(repPlayer==2 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																					printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																					printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																					printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																					printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																					printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																					printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+																				}
+																					
+																				if(repPlayer==3 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																					printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																				}
+																			}
+																			
+																			if(repPlayer==3 && tamponRepPlayer==2){
+																				tamponRepPlayer=4;
+																				printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																				printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																			}
+																		}
+																		
+																		if(repPlayer==3 && tamponRepPlayer==3){
+																			tamponRepPlayer=4;
+																			printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+																			printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+																			printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																			printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																			printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																			printf ("\n VICTOIRE... ?\n");
+																		}
+																		
+																		
+																	}
+																	
+																}
+															}
 													
 													if(repPlayer==3 && tamponRepPlayer==1){
 														tamponRepPlayer=4;
@@ -638,8 +922,293 @@ int main () {
 															}
 															
 															if(repPlayer==2 && tamponRepPlayer==1){
+																
 																tamponRepPlayer=2;
-																printf ("\n \n");
+																printf ("\n Vous partez au trousses de la bete, bocal en main en prenant garde a ne pas vous faire reperer. Vous n'avez pas encore trouve comment regler ce probleme de taille, apres tout.\n");
+																printf ("\n En arrivant aux murs de l'ecole, vous la voyez penetrer dans l'aile Ouest, l'aile des professeurs, en brisant negligement une fenetre comme s'il n'y avait rien.\n");
+																printf ("\n Vous la suivez discretement en esperant qu'elle ne vous entendra pas. L'aile Ouest, a cette heure-ci, est vide de ses occupants, heureusement.\n");
+																printf ("\n Alors que la creature tourne a l'angle d'un couloir, elle se retourne brusquement dans votre direction !\n");
+																printf ("\n************************************************ \n");
+																printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+																printf ("\n2) Vous lui jetez le bocal dessus dans un reflexe digne d'un belliciste ninja \n");
+																printf ("\n3) Vous vous cachez a l'angle du mur en priant pour qu'une creature aux sens aiguises ne vous remarque pas.\n");
+																printf ("\n************************************************ \n");
+																
+																scanf("%d", &repPlayer);
+																if(repPlayer==1 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n J'ai un scoop pour vous. Vous courez moins vite qu'une manticore.\n");
+																	printf ("\n Vous etes donc sauvagement decede. RIP.\n");
+																	printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+																}
+																
+																if(repPlayer==2 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n Voila qui est embarassant... le bocal rebondit negligement sur la creature qui, vexee, vous devore sur le champ\n");
+																	printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+																}
+																
+																if(repPlayer==3 && tamponRepPlayer==2){
+																	tamponRepPlayer=3;
+																	printf ("\n Vous vous cachez immediatement a l'angle du mur, en vous faisant le plus petit possible.\n");
+																	printf ("\n La creature fait quelques pas dans votre direction en reniflant bruyament... puis fait demi-tour. Vous avez eu de la chance.\n");
+																	printf ("\n Ou peut-etre pas tant de chance que ca puisque les voix lointaines de deux eleves, arrivant de votre cote du couloir, s'elevent soudain !\n");
+																	printf ("\n Un jeune garçon marchant en chaussettes, le front orne d'un bandeau a cornes de bouc, et une jeune fille portant un manteau noir brode d'or arrivent dans votre direction !\n");
+																	printf ("\n Rancuniere l'Apprentie-Sorciere : Je ne comprend toujours pas pourquoi on cherche ici et pas dans la foret...Bouketin nous a pourtant dit que le bocal serait dans la foret, quand on l'a croise.\n");
+																	printf ("\n Paulo le Nouveau : Parce que, si j'etais une manticore, le premier endroit ou j'irais, c'est ici. Des couloirs vides avec de la bouffe pas loin, c'est pile ce qu'il lui faut.\n");
+																	printf ("\n Oui mais le bocal est ferme...\n");
+																	printf ("\n D'experience, je sais qu'un bocal qui doit rester ferme finit toujours par etre ouvert...\n");
+																	printf ("\n \n");
+																	printf ("\n La manticore ne les a pas encore entendu, mais ca ne saurait tarder...elle se fige et tend ce qui lui sert d'oreille...\n");
+																	printf ("\n************************************************ \n");
+																	printf ("\n1) Vous leur faites signe de se taire en faisant le moins de bruit possible.\n");
+																	printf ("\n2) Vous leur intimmez de se taire immediatement !\n");
+																	printf ("\n3) C'est foutu, vous partez en courant !\n");
+																	printf ("\n************************************************ \n");
+																	
+																	scanf("%d", &repPlayer);
+																	if(repPlayer==1 && tamponRepPlayer==3){
+																		tamponRepPlayer=1;
+																		printf ("\n En approchant, Paulo et Rancuniere vous remarquent, de loin. Rancuniere fronce les sourcils avec agacement devant vos gesticulations silencieuse.\n");
+																		printf ("\n Rancuniere : Qu'est-ce que tu veux, a gesticuler comme un guignol, toi ?\n");
+																		printf ("\n L'injonction de Rancuniere aletre la manticore, qui se retourne brusquement et approche de vous. trop tard, ses yeux se dardent vers vous !\n");
+																		printf ("\n************************************************ \n");
+																		printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+																		printf ("\n2) Vous lui jetez le bocal dessus avec l'energie du desespoir \n");
+																		printf ("\n3) Vous ne bougez plus ! Sa vision est basee sur le mouvement...\n");
+																		printf ("\n************************************************ \n");
+																		
+																		scanf("%d", &repPlayer);
+																		if(repPlayer==1 && tamponRepPlayer==1){
+																			tamponRepPlayer=1;
+																			printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+																			printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+																			printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+																			printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+																			printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+																			printf ("\n Paulo : Evidement qu'il l'a !\n");
+																			printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+																			printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+																			printf ("\n************************************************ \n");
+																			printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+																			printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+																			printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+																			printf ("\n************************************************ \n");
+																			
+																			scanf("%d", &repPlayer);
+																			if(repPlayer==1 && tamponRepPlayer==1){
+																				tamponRepPlayer=4;
+																				printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+																				printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+																			}
+																			
+																			if(repPlayer==2 && tamponRepPlayer==1){
+																				tamponRepPlayer=2;
+																				printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+																				printf ("\n Rancuniere : paulo ! Attrappe !\n");
+																				printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+																				printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+																				
+																				printf ("\n************************************************ \n");
+																				printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+																				printf ("\n2) Vous tentez de recuperer le bocal. \n");
+																				printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+																				printf ("\n************************************************ \n");
+																				
+																				scanf("%d", &repPlayer);
+																				if(repPlayer==1 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+																					printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+																					printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+																				}
+																				
+																				if(repPlayer==2 && tamponRepPlayer==2){
+																					tamponRepPlayer=2;
+																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																					printf ("\n************************************************ \n");
+																					printf ("\n Vous lui jetez le bocal dessus.\n");
+																					printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n************************************************ \n");
+																					
+																					
+																					if(repPlayer==1 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																						printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																						printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																						printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																						printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+																					}
+																					
+																					if(repPlayer==2 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																						printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																						printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																						printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																						printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																						printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																						printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+																					}
+																					
+																					if(repPlayer==3 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																						printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																					}
+																				}
+																				
+																				if(repPlayer==3 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																					printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																				}
+																			}
+																			
+																			if(repPlayer==3 && tamponRepPlayer==1){
+																				tamponRepPlayer=4;
+																				printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+																				printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+																				printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																				printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																				printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																				printf ("\n VICTOIRE... ?\n");
+																			}
+																		}
+																		
+																		if(repPlayer==2 && tamponRepPlayer==1){
+																			tamponRepPlayer=4;
+																			printf ("\n Vous jetez le bocal sur la creature, a bout portant, droit dans son oeil. La bete se redresse en hurlant tandis que le petit recipient roule au sol et que vous vous figez de terreur.\n");
+																			printf ("\n Alors que la maticore tourne vers elle un regard charge de haine et leve une patte griffue pour vous arracher la tete, vous etes soudain repousse sur le mur par une vague d'energie doree.\n");
+																			printf ("\n Rancuniere Paulo ! Le bocal ! \n");
+																			printf ("\n Paulo : Le... oh nom d'un bouc !\n");
+																			printf ("\n En quelques secondes, Paulo le Nouveau s'elance vers le bocal et se jette au sol, glissant sur ses chaussettes pour slider au sol afin d'attrapper le bocal au vol en evitant la patte de la manticore.\n");
+																			printf ("\n Paulo : Rancuniere ! L'incantation !\n");
+																			printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																			printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																			printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																			printf ("\n VICTOIRE... ?\n");
+																		}
+																		
+																		if(repPlayer==3 && tamponRepPlayer==1){
+																			tamponRepPlayer=4;
+																			printf ("\n Ah tiens non. L'evoloution n'a pas permis a un predateur de ne pas voir ses proies. Surprenant. Du fait, les lois de la nature s'appliquent avec violence a votre cas...\n");
+																			printf ("\n Allez, recommencez. Et n'oubliez pas qu'on est pas chez Spielberg, ici...\n");
+																		}
+																	}
+																	
+																	if(repPlayer==2 && tamponRepPlayer==3){
+																		tamponRepPlayer=4;
+																		printf ("\n Crier n'est probablement pas la meilleure idee du monde quand on veut se faire discret.\n");
+																		printf ("\n Je me retiendrais de parler de selection naturelle et vous conseillerais simplement de reessayer... une fois que vous aurez fini d'etre digere.\n");
+																	}
+																	
+																	if(repPlayer==3 && tamponRepPlayer==3){
+																		tamponRepPlayer=3;
+																		printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+																		printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+																		printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+																		printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+																		printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+																		printf ("\n Paulo : Evidement qu'il l'a !\n");
+																		printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+																		printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+																		printf ("\n************************************************ \n");
+																		printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+																		printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+																		printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+																		printf ("\n************************************************ \n");
+																			
+																		scanf("%d", &repPlayer);
+																		if(repPlayer==1 && tamponRepPlayer==3){
+																			tamponRepPlayer=4;
+																			printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+																			printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+																		}
+																			
+																		if(repPlayer==2 && tamponRepPlayer==3){
+																			tamponRepPlayer=2;
+																			printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+																			printf ("\n Rancuniere : paulo ! Attrappe !\n");
+																			printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+																			printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+																				
+																			printf ("\n************************************************ \n");
+																			printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+																			printf ("\n2) Vous tentez de recuperer le bocal. \n");
+																			printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+																			printf ("\n************************************************ \n");
+																				
+																			scanf("%d", &repPlayer);
+																			if(repPlayer==1 && tamponRepPlayer==2){
+																				tamponRepPlayer=4;
+																				printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+																				printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+																				printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+																			}
+																				
+																			if(repPlayer==2 && tamponRepPlayer==2){
+																				tamponRepPlayer=2;
+																				printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																				printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																				printf ("\n************************************************ \n");
+																				printf ("\n Vous lui jetez le bocal dessus.\n");
+																				printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																				printf ("\n Vous changez d'avis et tournez les talons.\n");
+																				printf ("\n************************************************ \n");
+																					
+																					
+																				if(repPlayer==1 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																					printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																					printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																					printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																					printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+																				}
+																					
+																				if(repPlayer==2 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																					printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																					printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																					printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																					printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																					printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																					printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+																				}
+																					
+																				if(repPlayer==3 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																					printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																				}
+																			}
+																			
+																			if(repPlayer==3 && tamponRepPlayer==2){
+																				tamponRepPlayer=4;
+																				printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																				printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																			}
+																		}
+																		
+																		if(repPlayer==3 && tamponRepPlayer==3){
+																			tamponRepPlayer=4;
+																			printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+																			printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+																			printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																			printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																			printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																			printf ("\n VICTOIRE... ?\n");
+																		}
+																		
+																		
+																	}
+																	
+																}
 															}
 															
 															if(repPlayer==3 && tamponRepPlayer==1){
@@ -1808,7 +2377,7 @@ int main () {
 											printf ("\n Alors je pense que nous devrions vite recommencer la partie pour comprendre ce que cet animal fiche la, avant de nous faire devorer, vous en dites quoi ? hein ? oui hein.\n");
 										}
 								}
-								}
+								
 								
 								if (repPlayer== 3 && tamponRepPlayer == 2){
 									tamponRepPlayer=3;
@@ -1939,9 +2508,10 @@ int main () {
 									printf ("\n Vous pourrez peut-être recommencer la partie...\n");
 								}
 						}
+				}
 				
 				//FRANCISCAIN
-				if (repPlayer== 2 && tamponRepPlayer == 1){
+				if (repPlayer == 2 && tamponRepPlayer == 1){
 					tamponRepPlayer=2;
 					printf ("\n Fransiscain : Et bien mon enfant, l'Eglise est toujours en mal d'agneau a sauver et votre aide serait la bienvenue. \n");
 					printf ("\n Le Seigneur dans son infinie bontee a nie une fois de plus son existence au hasard, en me placant sur votre route. \n");
@@ -2122,8 +2692,293 @@ int main () {
 													
 													if(repPlayer==2 && tamponRepPlayer==1){
 														tamponRepPlayer=2;
-														printf ("\n \n");
-													}
+														
+																printf ("\n Vous partez au trousses de la bete, bocal en main en prenant garde a ne pas vous faire reperer. Vous n'avez pas encore trouve comment regler ce probleme de taille, apres tout.\n");
+																printf ("\n En arrivant aux murs de l'ecole, vous la voyez penetrer dans l'aile Ouest, l'aile des professeurs, en brisant negligement une fenetre comme s'il n'y avait rien.\n");
+																printf ("\n Vous la suivez discretement en esperant qu'elle ne vous entendra pas. L'aile Ouest, a cette heure-ci, est vide de ses occupants, heureusement.\n");
+																printf ("\n Alors que la creature tourne a l'angle d'un couloir, elle se retourne brusquement dans votre direction !\n");
+																printf ("\n************************************************ \n");
+																printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+																printf ("\n2) Vous lui jetez le bocal dessus dans un reflexe digne d'un belliciste ninja \n");
+																printf ("\n3) Vous vous cachez a l'angle du mur en priant pour qu'une creature aux sens aiguises ne vous remarque pas.\n");
+																printf ("\n************************************************ \n");
+																
+																scanf("%d", &repPlayer);
+																if(repPlayer==1 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n J'ai un scoop pour vous. Vous courez moins vite qu'une manticore.\n");
+																	printf ("\n Vous etes donc sauvagement decede. RIP.\n");
+																	printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+																}
+																
+																if(repPlayer==2 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n Voila qui est embarassant... le bocal rebondit negligement sur la creature qui, vexee, vous devore sur le champ\n");
+																	printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+																}
+																
+																if(repPlayer==3 && tamponRepPlayer==2){
+																	tamponRepPlayer=3;
+																	printf ("\n Vous vous cachez immediatement a l'angle du mur, en vous faisant le plus petit possible.\n");
+																	printf ("\n La creature fait quelques pas dans votre direction en reniflant bruyament... puis fait demi-tour. Vous avez eu de la chance.\n");
+																	printf ("\n Ou peut-etre pas tant de chance que ca puisque les voix lointaines de deux eleves, arrivant de votre cote du couloir, s'elevent soudain !\n");
+																	printf ("\n Un jeune garçon marchant en chaussettes, le front orne d'un bandeau a cornes de bouc, et une jeune fille portant un manteau noir brode d'or arrivent dans votre direction !\n");
+																	printf ("\n Rancuniere l'Apprentie-Sorciere : Je ne comprend toujours pas pourquoi on cherche ici et pas dans la foret...Bouketin nous a pourtant dit que le bocal serait dans la foret, quand on l'a croise.\n");
+																	printf ("\n Paulo le Nouveau : Parce que, si j'etais une manticore, le premier endroit ou j'irais, c'est ici. Des couloirs vides avec de la bouffe pas loin, c'est pile ce qu'il lui faut.\n");
+																	printf ("\n Oui mais le bocal est ferme...\n");
+																	printf ("\n D'experience, je sais qu'un bocal qui doit rester ferme finit toujours par etre ouvert...\n");
+																	printf ("\n \n");
+																	printf ("\n La manticore ne les a pas encore entendu, mais ca ne saurait tarder...elle se fige et tend ce qui lui sert d'oreille...\n");
+																	printf ("\n************************************************ \n");
+																	printf ("\n1) Vous leur faites signe de se taire en faisant le moins de bruit possible.\n");
+																	printf ("\n2) Vous leur intimmez de se taire immediatement !\n");
+																	printf ("\n3) C'est foutu, vous partez en courant !\n");
+																	printf ("\n************************************************ \n");
+																	
+																	scanf("%d", &repPlayer);
+																	if(repPlayer==1 && tamponRepPlayer==3){
+																		tamponRepPlayer=1;
+																		printf ("\n En approchant, Paulo et Rancuniere vous remarquent, de loin. Rancuniere fronce les sourcils avec agacement devant vos gesticulations silencieuse.\n");
+																		printf ("\n Rancuniere : Qu'est-ce que tu veux, a gesticuler comme un guignol, toi ?\n");
+																		printf ("\n L'injonction de Rancuniere aletre la manticore, qui se retourne brusquement et approche de vous. trop tard, ses yeux se dardent vers vous !\n");
+																		printf ("\n************************************************ \n");
+																		printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+																		printf ("\n2) Vous lui jetez le bocal dessus avec l'energie du desespoir \n");
+																		printf ("\n3) Vous ne bougez plus ! Sa vision est basee sur le mouvement...\n");
+																		printf ("\n************************************************ \n");
+																		
+																		scanf("%d", &repPlayer);
+																		if(repPlayer==1 && tamponRepPlayer==1){
+																			tamponRepPlayer=1;
+																			printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+																			printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+																			printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+																			printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+																			printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+																			printf ("\n Paulo : Evidement qu'il l'a !\n");
+																			printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+																			printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+																			printf ("\n************************************************ \n");
+																			printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+																			printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+																			printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+																			printf ("\n************************************************ \n");
+																			
+																			scanf("%d", &repPlayer);
+																			if(repPlayer==1 && tamponRepPlayer==1){
+																				tamponRepPlayer=4;
+																				printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+																				printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+																			}
+																			
+																			if(repPlayer==2 && tamponRepPlayer==1){
+																				tamponRepPlayer=2;
+																				printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+																				printf ("\n Rancuniere : paulo ! Attrappe !\n");
+																				printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+																				printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+																				
+																				printf ("\n************************************************ \n");
+																				printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+																				printf ("\n2) Vous tentez de recuperer le bocal. \n");
+																				printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+																				printf ("\n************************************************ \n");
+																				
+																				scanf("%d", &repPlayer);
+																				if(repPlayer==1 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+																					printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+																					printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+																				}
+																				
+																				if(repPlayer==2 && tamponRepPlayer==2){
+																					tamponRepPlayer=2;
+																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																					printf ("\n************************************************ \n");
+																					printf ("\n Vous lui jetez le bocal dessus.\n");
+																					printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n************************************************ \n");
+																					
+																					
+																					if(repPlayer==1 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																						printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																						printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																						printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																						printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+																					}
+																					
+																					if(repPlayer==2 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																						printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																						printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																						printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																						printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																						printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																						printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+																					}
+																					
+																					if(repPlayer==3 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																						printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																					}
+																				}
+																				
+																				if(repPlayer==3 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																					printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																				}
+																			}
+																			
+																			if(repPlayer==3 && tamponRepPlayer==1){
+																				tamponRepPlayer=4;
+																				printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+																				printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+																				printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																				printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																				printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																				printf ("\n VICTOIRE... ?\n");
+																			}
+																		}
+																		
+																		if(repPlayer==2 && tamponRepPlayer==1){
+																			tamponRepPlayer=4;
+																			printf ("\n Vous jetez le bocal sur la creature, a bout portant, droit dans son oeil. La bete se redresse en hurlant tandis que le petit recipient roule au sol et que vous vous figez de terreur.\n");
+																			printf ("\n Alors que la maticore tourne vers elle un regard charge de haine et leve une patte griffue pour vous arracher la tete, vous etes soudain repousse sur le mur par une vague d'energie doree.\n");
+																			printf ("\n Rancuniere Paulo ! Le bocal ! \n");
+																			printf ("\n Paulo : Le... oh nom d'un bouc !\n");
+																			printf ("\n En quelques secondes, Paulo le Nouveau s'elance vers le bocal et se jette au sol, glissant sur ses chaussettes pour slider au sol afin d'attrapper le bocal au vol en evitant la patte de la manticore.\n");
+																			printf ("\n Paulo : Rancuniere ! L'incantation !\n");
+																			printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																			printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																			printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																			printf ("\n VICTOIRE... ?\n");
+																		}
+																		
+																		if(repPlayer==3 && tamponRepPlayer==1){
+																			tamponRepPlayer=4;
+																			printf ("\n Ah tiens non. L'evoloution n'a pas permis a un predateur de ne pas voir ses proies. Surprenant. Du fait, les lois de la nature s'appliquent avec violence a votre cas...\n");
+																			printf ("\n Allez, recommencez. Et n'oubliez pas qu'on est pas chez Spielberg, ici...\n");
+																		}
+																	}
+																	
+																	if(repPlayer==2 && tamponRepPlayer==3){
+																		tamponRepPlayer=4;
+																		printf ("\n Crier n'est probablement pas la meilleure idee du monde quand on veut se faire discret.\n");
+																		printf ("\n Je me retiendrais de parler de selection naturelle et vous conseillerais simplement de reessayer... une fois que vous aurez fini d'etre digere.\n");
+																	}
+																	
+																	if(repPlayer==3 && tamponRepPlayer==3){
+																		tamponRepPlayer=3;
+																		printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+																		printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+																		printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+																		printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+																		printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+																		printf ("\n Paulo : Evidement qu'il l'a !\n");
+																		printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+																		printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+																		printf ("\n************************************************ \n");
+																		printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+																		printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+																		printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+																		printf ("\n************************************************ \n");
+																			
+																		scanf("%d", &repPlayer);
+																		if(repPlayer==1 && tamponRepPlayer==3){
+																			tamponRepPlayer=4;
+																			printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+																			printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+																		}
+																			
+																		if(repPlayer==2 && tamponRepPlayer==3){
+																			tamponRepPlayer=2;
+																			printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+																			printf ("\n Rancuniere : paulo ! Attrappe !\n");
+																			printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+																			printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+																				
+																			printf ("\n************************************************ \n");
+																			printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+																			printf ("\n2) Vous tentez de recuperer le bocal. \n");
+																			printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+																			printf ("\n************************************************ \n");
+																				
+																			scanf("%d", &repPlayer);
+																			if(repPlayer==1 && tamponRepPlayer==2){
+																				tamponRepPlayer=4;
+																				printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+																				printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+																				printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+																			}
+																				
+																			if(repPlayer==2 && tamponRepPlayer==2){
+																				tamponRepPlayer=2;
+																				printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																				printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																				printf ("\n************************************************ \n");
+																				printf ("\n Vous lui jetez le bocal dessus.\n");
+																				printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																				printf ("\n Vous changez d'avis et tournez les talons.\n");
+																				printf ("\n************************************************ \n");
+																					
+																					
+																				if(repPlayer==1 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																					printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																					printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																					printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																					printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+																				}
+																					
+																				if(repPlayer==2 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																					printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																					printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																					printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																					printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																					printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																					printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+																				}
+																					
+																				if(repPlayer==3 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																					printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																				}
+																			}
+																			
+																			if(repPlayer==3 && tamponRepPlayer==2){
+																				tamponRepPlayer=4;
+																				printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																				printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																			}
+																		}
+																		
+																		if(repPlayer==3 && tamponRepPlayer==3){
+																			tamponRepPlayer=4;
+																			printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+																			printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+																			printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																			printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																			printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																			printf ("\n VICTOIRE... ?\n");
+																		}
+																		
+																		
+																	}
+																	
+																}
+															}
 													
 													if(repPlayer==3 && tamponRepPlayer==1){
 														tamponRepPlayer=4;
@@ -2767,8 +3622,293 @@ int main () {
 																
 																if(repPlayer==2 && tamponRepPlayer==1){
 																	tamponRepPlayer=2;
-																	printf ("\n \n");
+																	
+																printf ("\n Vous partez au trousses de la bete, bocal en main en prenant garde a ne pas vous faire reperer. Vous n'avez pas encore trouve comment regler ce probleme de taille, apres tout.\n");
+																printf ("\n En arrivant aux murs de l'ecole, vous la voyez penetrer dans l'aile Ouest, l'aile des professeurs, en brisant negligement une fenetre comme s'il n'y avait rien.\n");
+																printf ("\n Vous la suivez discretement en esperant qu'elle ne vous entendra pas. L'aile Ouest, a cette heure-ci, est vide de ses occupants, heureusement.\n");
+																printf ("\n Alors que la creature tourne a l'angle d'un couloir, elle se retourne brusquement dans votre direction !\n");
+																printf ("\n************************************************ \n");
+																printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+																printf ("\n2) Vous lui jetez le bocal dessus dans un reflexe digne d'un belliciste ninja \n");
+																printf ("\n3) Vous vous cachez a l'angle du mur en priant pour qu'une creature aux sens aiguises ne vous remarque pas.\n");
+																printf ("\n************************************************ \n");
+																
+																scanf("%d", &repPlayer);
+																if(repPlayer==1 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n J'ai un scoop pour vous. Vous courez moins vite qu'une manticore.\n");
+																	printf ("\n Vous etes donc sauvagement decede. RIP.\n");
+																	printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
 																}
+																
+																if(repPlayer==2 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n Voila qui est embarassant... le bocal rebondit negligement sur la creature qui, vexee, vous devore sur le champ\n");
+																	printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+																}
+																
+																if(repPlayer==3 && tamponRepPlayer==2){
+																	tamponRepPlayer=3;
+																	printf ("\n Vous vous cachez immediatement a l'angle du mur, en vous faisant le plus petit possible.\n");
+																	printf ("\n La creature fait quelques pas dans votre direction en reniflant bruyament... puis fait demi-tour. Vous avez eu de la chance.\n");
+																	printf ("\n Ou peut-etre pas tant de chance que ca puisque les voix lointaines de deux eleves, arrivant de votre cote du couloir, s'elevent soudain !\n");
+																	printf ("\n Un jeune garçon marchant en chaussettes, le front orne d'un bandeau a cornes de bouc, et une jeune fille portant un manteau noir brode d'or arrivent dans votre direction !\n");
+																	printf ("\n Rancuniere l'Apprentie-Sorciere : Je ne comprend toujours pas pourquoi on cherche ici et pas dans la foret...Bouketin nous a pourtant dit que le bocal serait dans la foret, quand on l'a croise.\n");
+																	printf ("\n Paulo le Nouveau : Parce que, si j'etais une manticore, le premier endroit ou j'irais, c'est ici. Des couloirs vides avec de la bouffe pas loin, c'est pile ce qu'il lui faut.\n");
+																	printf ("\n Oui mais le bocal est ferme...\n");
+																	printf ("\n D'experience, je sais qu'un bocal qui doit rester ferme finit toujours par etre ouvert...\n");
+																	printf ("\n \n");
+																	printf ("\n La manticore ne les a pas encore entendu, mais ca ne saurait tarder...elle se fige et tend ce qui lui sert d'oreille...\n");
+																	printf ("\n************************************************ \n");
+																	printf ("\n1) Vous leur faites signe de se taire en faisant le moins de bruit possible.\n");
+																	printf ("\n2) Vous leur intimmez de se taire immediatement !\n");
+																	printf ("\n3) C'est foutu, vous partez en courant !\n");
+																	printf ("\n************************************************ \n");
+																	
+																	scanf("%d", &repPlayer);
+																	if(repPlayer==1 && tamponRepPlayer==3){
+																		tamponRepPlayer=1;
+																		printf ("\n En approchant, Paulo et Rancuniere vous remarquent, de loin. Rancuniere fronce les sourcils avec agacement devant vos gesticulations silencieuse.\n");
+																		printf ("\n Rancuniere : Qu'est-ce que tu veux, a gesticuler comme un guignol, toi ?\n");
+																		printf ("\n L'injonction de Rancuniere aletre la manticore, qui se retourne brusquement et approche de vous. trop tard, ses yeux se dardent vers vous !\n");
+																		printf ("\n************************************************ \n");
+																		printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+																		printf ("\n2) Vous lui jetez le bocal dessus avec l'energie du desespoir \n");
+																		printf ("\n3) Vous ne bougez plus ! Sa vision est basee sur le mouvement...\n");
+																		printf ("\n************************************************ \n");
+																		
+																		scanf("%d", &repPlayer);
+																		if(repPlayer==1 && tamponRepPlayer==1){
+																			tamponRepPlayer=1;
+																			printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+																			printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+																			printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+																			printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+																			printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+																			printf ("\n Paulo : Evidement qu'il l'a !\n");
+																			printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+																			printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+																			printf ("\n************************************************ \n");
+																			printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+																			printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+																			printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+																			printf ("\n************************************************ \n");
+																			
+																			scanf("%d", &repPlayer);
+																			if(repPlayer==1 && tamponRepPlayer==1){
+																				tamponRepPlayer=4;
+																				printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+																				printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+																			}
+																			
+																			if(repPlayer==2 && tamponRepPlayer==1){
+																				tamponRepPlayer=2;
+																				printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+																				printf ("\n Rancuniere : paulo ! Attrappe !\n");
+																				printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+																				printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+																				
+																				printf ("\n************************************************ \n");
+																				printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+																				printf ("\n2) Vous tentez de recuperer le bocal. \n");
+																				printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+																				printf ("\n************************************************ \n");
+																				
+																				scanf("%d", &repPlayer);
+																				if(repPlayer==1 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+																					printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+																					printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+																				}
+																				
+																				if(repPlayer==2 && tamponRepPlayer==2){
+																					tamponRepPlayer=2;
+																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																					printf ("\n************************************************ \n");
+																					printf ("\n Vous lui jetez le bocal dessus.\n");
+																					printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n************************************************ \n");
+																					
+																					
+																					if(repPlayer==1 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																						printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																						printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																						printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																						printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+																					}
+																					
+																					if(repPlayer==2 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																						printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																						printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																						printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																						printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																						printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																						printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+																					}
+																					
+																					if(repPlayer==3 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																						printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																					}
+																				}
+																				
+																				if(repPlayer==3 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																					printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																				}
+																			}
+																			
+																			if(repPlayer==3 && tamponRepPlayer==1){
+																				tamponRepPlayer=4;
+																				printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+																				printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+																				printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																				printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																				printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																				printf ("\n VICTOIRE... ?\n");
+																			}
+																		}
+																		
+																		if(repPlayer==2 && tamponRepPlayer==1){
+																			tamponRepPlayer=4;
+																			printf ("\n Vous jetez le bocal sur la creature, a bout portant, droit dans son oeil. La bete se redresse en hurlant tandis que le petit recipient roule au sol et que vous vous figez de terreur.\n");
+																			printf ("\n Alors que la maticore tourne vers elle un regard charge de haine et leve une patte griffue pour vous arracher la tete, vous etes soudain repousse sur le mur par une vague d'energie doree.\n");
+																			printf ("\n Rancuniere Paulo ! Le bocal ! \n");
+																			printf ("\n Paulo : Le... oh nom d'un bouc !\n");
+																			printf ("\n En quelques secondes, Paulo le Nouveau s'elance vers le bocal et se jette au sol, glissant sur ses chaussettes pour slider au sol afin d'attrapper le bocal au vol en evitant la patte de la manticore.\n");
+																			printf ("\n Paulo : Rancuniere ! L'incantation !\n");
+																			printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																			printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																			printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																			printf ("\n VICTOIRE... ?\n");
+																		}
+																		
+																		if(repPlayer==3 && tamponRepPlayer==1){
+																			tamponRepPlayer=4;
+																			printf ("\n Ah tiens non. L'evoloution n'a pas permis a un predateur de ne pas voir ses proies. Surprenant. Du fait, les lois de la nature s'appliquent avec violence a votre cas...\n");
+																			printf ("\n Allez, recommencez. Et n'oubliez pas qu'on est pas chez Spielberg, ici...\n");
+																		}
+																	}
+																	
+																	if(repPlayer==2 && tamponRepPlayer==3){
+																		tamponRepPlayer=4;
+																		printf ("\n Crier n'est probablement pas la meilleure idee du monde quand on veut se faire discret.\n");
+																		printf ("\n Je me retiendrais de parler de selection naturelle et vous conseillerais simplement de reessayer... une fois que vous aurez fini d'etre digere.\n");
+																	}
+																	
+																	if(repPlayer==3 && tamponRepPlayer==3){
+																		tamponRepPlayer=3;
+																		printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+																		printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+																		printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+																		printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+																		printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+																		printf ("\n Paulo : Evidement qu'il l'a !\n");
+																		printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+																		printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+																		printf ("\n************************************************ \n");
+																		printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+																		printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+																		printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+																		printf ("\n************************************************ \n");
+																			
+																		scanf("%d", &repPlayer);
+																		if(repPlayer==1 && tamponRepPlayer==3){
+																			tamponRepPlayer=4;
+																			printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+																			printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+																		}
+																			
+																		if(repPlayer==2 && tamponRepPlayer==3){
+																			tamponRepPlayer=2;
+																			printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+																			printf ("\n Rancuniere : paulo ! Attrappe !\n");
+																			printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+																			printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+																				
+																			printf ("\n************************************************ \n");
+																			printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+																			printf ("\n2) Vous tentez de recuperer le bocal. \n");
+																			printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+																			printf ("\n************************************************ \n");
+																				
+																			scanf("%d", &repPlayer);
+																			if(repPlayer==1 && tamponRepPlayer==2){
+																				tamponRepPlayer=4;
+																				printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+																				printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+																				printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+																			}
+																				
+																			if(repPlayer==2 && tamponRepPlayer==2){
+																				tamponRepPlayer=2;
+																				printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																				printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																				printf ("\n************************************************ \n");
+																				printf ("\n Vous lui jetez le bocal dessus.\n");
+																				printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																				printf ("\n Vous changez d'avis et tournez les talons.\n");
+																				printf ("\n************************************************ \n");
+																					
+																					
+																				if(repPlayer==1 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																					printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																					printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																					printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																					printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+																				}
+																					
+																				if(repPlayer==2 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																					printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																					printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																					printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																					printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																					printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																					printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+																				}
+																					
+																				if(repPlayer==3 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																					printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																				}
+																			}
+																			
+																			if(repPlayer==3 && tamponRepPlayer==2){
+																				tamponRepPlayer=4;
+																				printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																				printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																			}
+																		}
+																		
+																		if(repPlayer==3 && tamponRepPlayer==3){
+																			tamponRepPlayer=4;
+																			printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+																			printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+																			printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																			printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																			printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																			printf ("\n VICTOIRE... ?\n");
+																		}
+																		
+																		
+																	}
+																	
+																}
+															}
 																
 																if(repPlayer==3 && tamponRepPlayer==1){
 																	tamponRepPlayer=4;
@@ -3217,7 +4357,7 @@ int main () {
 												
 											}
 										}
-									}
+									
 										//MACHIN
 										if(repPlayer== 2 && tamponRepPlayer == 3){
 											tamponRepPlayer=2;
@@ -3267,8 +4407,8 @@ int main () {
 											printf ("\n Je sais ce que vous vous dites. ''Est-ce que c'est seulement possible de gagner a ce jeu ?!'' Vous pouvez toujours recommencer, si vous voulez la reponse...\n");
 										}
 									}
-								}
 								
+								}
 								if(repPlayer== 3 && tamponRepPlayer == 3){
 									tamponRepPlayer=4;
 									printf ("\n Matheux regarde negligement le paquet de tracts que vous lui tendez et ricane en portant son cafe a sa bouche.\n");
@@ -3277,12 +4417,10 @@ int main () {
 									printf ("\n Je sais ce que vous vous dites. ''Est-ce que c'est seulement possible de gagner a ce jeu ?!'' Vous pouvez toujours recommencer, si vous voulez la reponse...\n");
 									
 								}
+							
 								
 						}
-						
-							
-							
-						
+						}
 						//LELO !	
 						if(repPlayer== 3 && tamponRepPlayer == 2){
 							tamponRepPlayer=3;
@@ -3429,7 +4567,291 @@ int main () {
 															
 															if(repPlayer==2 && tamponRepPlayer==1){
 																tamponRepPlayer=2;
-																printf ("\n \n");
+																printf ("\n Vous partez au trousses de la bete, bocal en main en prenant garde a ne pas vous faire reperer. Vous n'avez pas encore trouve comment regler ce probleme de taille, apres tout.\n");
+																printf ("\n En arrivant aux murs de l'ecole, vous la voyez penetrer dans l'aile Ouest, l'aile des professeurs, en brisant negligement une fenetre comme s'il n'y avait rien.\n");
+																printf ("\n Vous la suivez discretement en esperant qu'elle ne vous entendra pas. L'aile Ouest, a cette heure-ci, est vide de ses occupants, heureusement.\n");
+																printf ("\n Alors que la creature tourne a l'angle d'un couloir, elle se retourne brusquement dans votre direction !\n");
+																printf ("\n************************************************ \n");
+																printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+																printf ("\n2) Vous lui jetez le bocal dessus dans un reflexe digne d'un belliciste ninja \n");
+																printf ("\n3) Vous vous cachez a l'angle du mur en priant pour qu'une creature aux sens aiguises ne vous remarque pas.\n");
+																printf ("\n************************************************ \n");
+																
+																scanf("%d", &repPlayer);
+																if(repPlayer==1 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n J'ai un scoop pour vous. Vous courez moins vite qu'une manticore.\n");
+																	printf ("\n Vous etes donc sauvagement decede. RIP.\n");
+																	printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+																}
+																
+																if(repPlayer==2 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n Voila qui est embarassant... le bocal rebondit negligement sur la creature qui, vexee, vous devore sur le champ\n");
+																	printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+																}
+																
+																if(repPlayer==3 && tamponRepPlayer==2){
+																	tamponRepPlayer=3;
+																	printf ("\n Vous vous cachez immediatement a l'angle du mur, en vous faisant le plus petit possible.\n");
+																	printf ("\n La creature fait quelques pas dans votre direction en reniflant bruyament... puis fait demi-tour. Vous avez eu de la chance.\n");
+																	printf ("\n Ou peut-etre pas tant de chance que ca puisque les voix lointaines de deux eleves, arrivant de votre cote du couloir, s'elevent soudain !\n");
+																	printf ("\n Un jeune garçon marchant en chaussettes, le front orne d'un bandeau a cornes de bouc, et une jeune fille portant un manteau noir brode d'or arrivent dans votre direction !\n");
+																	printf ("\n Rancuniere l'Apprentie-Sorciere : Je ne comprend toujours pas pourquoi on cherche ici et pas dans la foret...Bouketin nous a pourtant dit que le bocal serait dans la foret, quand on l'a croise.\n");
+																	printf ("\n Paulo le Nouveau : Parce que, si j'etais une manticore, le premier endroit ou j'irais, c'est ici. Des couloirs vides avec de la bouffe pas loin, c'est pile ce qu'il lui faut.\n");
+																	printf ("\n Oui mais le bocal est ferme...\n");
+																	printf ("\n D'experience, je sais qu'un bocal qui doit rester ferme finit toujours par etre ouvert...\n");
+																	printf ("\n \n");
+																	printf ("\n La manticore ne les a pas encore entendu, mais ca ne saurait tarder...elle se fige et tend ce qui lui sert d'oreille...\n");
+																	printf ("\n************************************************ \n");
+																	printf ("\n1) Vous leur faites signe de se taire en faisant le moins de bruit possible.\n");
+																	printf ("\n2) Vous leur intimmez de se taire immediatement !\n");
+																	printf ("\n3) C'est foutu, vous partez en courant !\n");
+																	printf ("\n************************************************ \n");
+																	
+																	scanf("%d", &repPlayer);
+																	if(repPlayer==1 && tamponRepPlayer==3){
+																		tamponRepPlayer=1;
+																		printf ("\n En approchant, Paulo et Rancuniere vous remarquent, de loin. Rancuniere fronce les sourcils avec agacement devant vos gesticulations silencieuse.\n");
+																		printf ("\n Rancuniere : Qu'est-ce que tu veux, a gesticuler comme un guignol, toi ?\n");
+																		printf ("\n L'injonction de Rancuniere aletre la manticore, qui se retourne brusquement et approche de vous. trop tard, ses yeux se dardent vers vous !\n");
+																		printf ("\n************************************************ \n");
+																		printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+																		printf ("\n2) Vous lui jetez le bocal dessus avec l'energie du desespoir \n");
+																		printf ("\n3) Vous ne bougez plus ! Sa vision est basee sur le mouvement...\n");
+																		printf ("\n************************************************ \n");
+																		
+																		scanf("%d", &repPlayer);
+																		if(repPlayer==1 && tamponRepPlayer==1){
+																			tamponRepPlayer=1;
+																			printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+																			printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+																			printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+																			printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+																			printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+																			printf ("\n Paulo : Evidement qu'il l'a !\n");
+																			printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+																			printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+																			printf ("\n************************************************ \n");
+																			printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+																			printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+																			printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+																			printf ("\n************************************************ \n");
+																			
+																			scanf("%d", &repPlayer);
+																			if(repPlayer==1 && tamponRepPlayer==1){
+																				tamponRepPlayer=4;
+																				printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+																				printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+																			}
+																			
+																			if(repPlayer==2 && tamponRepPlayer==1){
+																				tamponRepPlayer=2;
+																				printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+																				printf ("\n Rancuniere : paulo ! Attrappe !\n");
+																				printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+																				printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+																				
+																				printf ("\n************************************************ \n");
+																				printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+																				printf ("\n2) Vous tentez de recuperer le bocal. \n");
+																				printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+																				printf ("\n************************************************ \n");
+																				
+																				scanf("%d", &repPlayer);
+																				if(repPlayer==1 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+																					printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+																					printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+																				}
+																				
+																				if(repPlayer==2 && tamponRepPlayer==2){
+																					tamponRepPlayer=2;
+																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																					printf ("\n************************************************ \n");
+																					printf ("\n Vous lui jetez le bocal dessus.\n");
+																					printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n************************************************ \n");
+																					
+																					
+																					if(repPlayer==1 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																						printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																						printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																						printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																						printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+																					}
+																					
+																					if(repPlayer==2 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																						printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																						printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																						printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																						printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																						printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																						printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+																					}
+																					
+																					if(repPlayer==3 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																						printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																					}
+																				}
+																				
+																				if(repPlayer==3 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																					printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																				}
+																			}
+																			
+																			if(repPlayer==3 && tamponRepPlayer==1){
+																				tamponRepPlayer=4;
+																				printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+																				printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+																				printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																				printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																				printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																				printf ("\n VICTOIRE... ?\n");
+																			}
+																		}
+																		
+																		if(repPlayer==2 && tamponRepPlayer==1){
+																			tamponRepPlayer=4;
+																			printf ("\n Vous jetez le bocal sur la creature, a bout portant, droit dans son oeil. La bete se redresse en hurlant tandis que le petit recipient roule au sol et que vous vous figez de terreur.\n");
+																			printf ("\n Alors que la maticore tourne vers elle un regard charge de haine et leve une patte griffue pour vous arracher la tete, vous etes soudain repousse sur le mur par une vague d'energie doree.\n");
+																			printf ("\n Rancuniere Paulo ! Le bocal ! \n");
+																			printf ("\n Paulo : Le... oh nom d'un bouc !\n");
+																			printf ("\n En quelques secondes, Paulo le Nouveau s'elance vers le bocal et se jette au sol, glissant sur ses chaussettes pour slider au sol afin d'attrapper le bocal au vol en evitant la patte de la manticore.\n");
+																			printf ("\n Paulo : Rancuniere ! L'incantation !\n");
+																			printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																			printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																			printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																			printf ("\n VICTOIRE... ?\n");
+																		}
+																		
+																		if(repPlayer==3 && tamponRepPlayer==1){
+																			tamponRepPlayer=4;
+																			printf ("\n Ah tiens non. L'evoloution n'a pas permis a un predateur de ne pas voir ses proies. Surprenant. Du fait, les lois de la nature s'appliquent avec violence a votre cas...\n");
+																			printf ("\n Allez, recommencez. Et n'oubliez pas qu'on est pas chez Spielberg, ici...\n");
+																		}
+																	}
+																	
+																	if(repPlayer==2 && tamponRepPlayer==3){
+																		tamponRepPlayer=4;
+																		printf ("\n Crier n'est probablement pas la meilleure idee du monde quand on veut se faire discret.\n");
+																		printf ("\n Je me retiendrais de parler de selection naturelle et vous conseillerais simplement de reessayer... une fois que vous aurez fini d'etre digere.\n");
+																	}
+																	
+																	if(repPlayer==3 && tamponRepPlayer==3){
+																		tamponRepPlayer=3;
+																		printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+																		printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+																		printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+																		printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+																		printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+																		printf ("\n Paulo : Evidement qu'il l'a !\n");
+																		printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+																		printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+																		printf ("\n************************************************ \n");
+																		printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+																		printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+																		printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+																		printf ("\n************************************************ \n");
+																			
+																		scanf("%d", &repPlayer);
+																		if(repPlayer==1 && tamponRepPlayer==3){
+																			tamponRepPlayer=4;
+																			printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+																			printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+																		}
+																			
+																		if(repPlayer==2 && tamponRepPlayer==3){
+																			tamponRepPlayer=2;
+																			printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+																			printf ("\n Rancuniere : paulo ! Attrappe !\n");
+																			printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+																			printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+																				
+																			printf ("\n************************************************ \n");
+																			printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+																			printf ("\n2) Vous tentez de recuperer le bocal. \n");
+																			printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+																			printf ("\n************************************************ \n");
+																				
+																			scanf("%d", &repPlayer);
+																			if(repPlayer==1 && tamponRepPlayer==2){
+																				tamponRepPlayer=4;
+																				printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+																				printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+																				printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+																			}
+																				
+																			if(repPlayer==2 && tamponRepPlayer==2){
+																				tamponRepPlayer=2;
+																				printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																				printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																				printf ("\n************************************************ \n");
+																				printf ("\n Vous lui jetez le bocal dessus.\n");
+																				printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																				printf ("\n Vous changez d'avis et tournez les talons.\n");
+																				printf ("\n************************************************ \n");
+																					
+																					
+																				if(repPlayer==1 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																					printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																					printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																					printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																					printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+																				}
+																					
+																				if(repPlayer==2 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																					printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																					printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																					printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																					printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																					printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																					printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+																				}
+																					
+																				if(repPlayer==3 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																					printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																				}
+																			}
+																			
+																			if(repPlayer==3 && tamponRepPlayer==2){
+																				tamponRepPlayer=4;
+																				printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																				printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																			}
+																		}
+																		
+																		if(repPlayer==3 && tamponRepPlayer==3){
+																			tamponRepPlayer=4;
+																			printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+																			printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+																			printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																			printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																			printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																			printf ("\n VICTOIRE... ?\n");
+																		}
+																		
+																		
+																	}
+																	
+																}
 															}
 															
 															if(repPlayer==3 && tamponRepPlayer==1){
@@ -4257,8 +5679,293 @@ int main () {
 													
 													if(repPlayer==2 && tamponRepPlayer==1){
 														tamponRepPlayer=2;
-														printf ("\n \n");
-													}
+														
+																printf ("\n Vous partez au trousses de la bete, bocal en main en prenant garde a ne pas vous faire reperer. Vous n'avez pas encore trouve comment regler ce probleme de taille, apres tout.\n");
+																printf ("\n En arrivant aux murs de l'ecole, vous la voyez penetrer dans l'aile Ouest, l'aile des professeurs, en brisant negligement une fenetre comme s'il n'y avait rien.\n");
+																printf ("\n Vous la suivez discretement en esperant qu'elle ne vous entendra pas. L'aile Ouest, a cette heure-ci, est vide de ses occupants, heureusement.\n");
+																printf ("\n Alors que la creature tourne a l'angle d'un couloir, elle se retourne brusquement dans votre direction !\n");
+																printf ("\n************************************************ \n");
+																printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+																printf ("\n2) Vous lui jetez le bocal dessus dans un reflexe digne d'un belliciste ninja \n");
+																printf ("\n3) Vous vous cachez a l'angle du mur en priant pour qu'une creature aux sens aiguises ne vous remarque pas.\n");
+																printf ("\n************************************************ \n");
+																
+																scanf("%d", &repPlayer);
+																if(repPlayer==1 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n J'ai un scoop pour vous. Vous courez moins vite qu'une manticore.\n");
+																	printf ("\n Vous etes donc sauvagement decede. RIP.\n");
+																	printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+																}
+																
+																if(repPlayer==2 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n Voila qui est embarassant... le bocal rebondit negligement sur la creature qui, vexee, vous devore sur le champ\n");
+																	printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+																}
+																
+																if(repPlayer==3 && tamponRepPlayer==2){
+																	tamponRepPlayer=3;
+																	printf ("\n Vous vous cachez immediatement a l'angle du mur, en vous faisant le plus petit possible.\n");
+																	printf ("\n La creature fait quelques pas dans votre direction en reniflant bruyament... puis fait demi-tour. Vous avez eu de la chance.\n");
+																	printf ("\n Ou peut-etre pas tant de chance que ca puisque les voix lointaines de deux eleves, arrivant de votre cote du couloir, s'elevent soudain !\n");
+																	printf ("\n Un jeune garçon marchant en chaussettes, le front orne d'un bandeau a cornes de bouc, et une jeune fille portant un manteau noir brode d'or arrivent dans votre direction !\n");
+																	printf ("\n Rancuniere l'Apprentie-Sorciere : Je ne comprend toujours pas pourquoi on cherche ici et pas dans la foret...Bouketin nous a pourtant dit que le bocal serait dans la foret, quand on l'a croise.\n");
+																	printf ("\n Paulo le Nouveau : Parce que, si j'etais une manticore, le premier endroit ou j'irais, c'est ici. Des couloirs vides avec de la bouffe pas loin, c'est pile ce qu'il lui faut.\n");
+																	printf ("\n Oui mais le bocal est ferme...\n");
+																	printf ("\n D'experience, je sais qu'un bocal qui doit rester ferme finit toujours par etre ouvert...\n");
+																	printf ("\n \n");
+																	printf ("\n La manticore ne les a pas encore entendu, mais ca ne saurait tarder...elle se fige et tend ce qui lui sert d'oreille...\n");
+																	printf ("\n************************************************ \n");
+																	printf ("\n1) Vous leur faites signe de se taire en faisant le moins de bruit possible.\n");
+																	printf ("\n2) Vous leur intimmez de se taire immediatement !\n");
+																	printf ("\n3) C'est foutu, vous partez en courant !\n");
+																	printf ("\n************************************************ \n");
+																	
+																	scanf("%d", &repPlayer);
+																	if(repPlayer==1 && tamponRepPlayer==3){
+																		tamponRepPlayer=1;
+																		printf ("\n En approchant, Paulo et Rancuniere vous remarquent, de loin. Rancuniere fronce les sourcils avec agacement devant vos gesticulations silencieuse.\n");
+																		printf ("\n Rancuniere : Qu'est-ce que tu veux, a gesticuler comme un guignol, toi ?\n");
+																		printf ("\n L'injonction de Rancuniere aletre la manticore, qui se retourne brusquement et approche de vous. trop tard, ses yeux se dardent vers vous !\n");
+																		printf ("\n************************************************ \n");
+																		printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+																		printf ("\n2) Vous lui jetez le bocal dessus avec l'energie du desespoir \n");
+																		printf ("\n3) Vous ne bougez plus ! Sa vision est basee sur le mouvement...\n");
+																		printf ("\n************************************************ \n");
+																		
+																		scanf("%d", &repPlayer);
+																		if(repPlayer==1 && tamponRepPlayer==1){
+																			tamponRepPlayer=1;
+																			printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+																			printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+																			printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+																			printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+																			printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+																			printf ("\n Paulo : Evidement qu'il l'a !\n");
+																			printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+																			printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+																			printf ("\n************************************************ \n");
+																			printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+																			printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+																			printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+																			printf ("\n************************************************ \n");
+																			
+																			scanf("%d", &repPlayer);
+																			if(repPlayer==1 && tamponRepPlayer==1){
+																				tamponRepPlayer=4;
+																				printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+																				printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+																			}
+																			
+																			if(repPlayer==2 && tamponRepPlayer==1){
+																				tamponRepPlayer=2;
+																				printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+																				printf ("\n Rancuniere : paulo ! Attrappe !\n");
+																				printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+																				printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+																				
+																				printf ("\n************************************************ \n");
+																				printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+																				printf ("\n2) Vous tentez de recuperer le bocal. \n");
+																				printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+																				printf ("\n************************************************ \n");
+																				
+																				scanf("%d", &repPlayer);
+																				if(repPlayer==1 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+																					printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+																					printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+																				}
+																				
+																				if(repPlayer==2 && tamponRepPlayer==2){
+																					tamponRepPlayer=2;
+																					printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																					printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																					printf ("\n************************************************ \n");
+																					printf ("\n Vous lui jetez le bocal dessus.\n");
+																					printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																					printf ("\n Vous changez d'avis et tournez les talons.\n");
+																					printf ("\n************************************************ \n");
+																					
+																					
+																					if(repPlayer==1 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																						printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																						printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																						printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																						printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+																					}
+																					
+																					if(repPlayer==2 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																						printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																						printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																						printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																						printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																						printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																						printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+																					}
+																					
+																					if(repPlayer==3 && tamponRepPlayer==2){
+																						tamponRepPlayer=4;
+																						printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																						printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																					}
+																				}
+																				
+																				if(repPlayer==3 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																					printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																				}
+																			}
+																			
+																			if(repPlayer==3 && tamponRepPlayer==1){
+																				tamponRepPlayer=4;
+																				printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+																				printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+																				printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																				printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																				printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																				printf ("\n VICTOIRE... ?\n");
+																			}
+																		}
+																		
+																		if(repPlayer==2 && tamponRepPlayer==1){
+																			tamponRepPlayer=4;
+																			printf ("\n Vous jetez le bocal sur la creature, a bout portant, droit dans son oeil. La bete se redresse en hurlant tandis que le petit recipient roule au sol et que vous vous figez de terreur.\n");
+																			printf ("\n Alors que la maticore tourne vers elle un regard charge de haine et leve une patte griffue pour vous arracher la tete, vous etes soudain repousse sur le mur par une vague d'energie doree.\n");
+																			printf ("\n Rancuniere Paulo ! Le bocal ! \n");
+																			printf ("\n Paulo : Le... oh nom d'un bouc !\n");
+																			printf ("\n En quelques secondes, Paulo le Nouveau s'elance vers le bocal et se jette au sol, glissant sur ses chaussettes pour slider au sol afin d'attrapper le bocal au vol en evitant la patte de la manticore.\n");
+																			printf ("\n Paulo : Rancuniere ! L'incantation !\n");
+																			printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																			printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																			printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																			printf ("\n VICTOIRE... ?\n");
+																		}
+																		
+																		if(repPlayer==3 && tamponRepPlayer==1){
+																			tamponRepPlayer=4;
+																			printf ("\n Ah tiens non. L'evoloution n'a pas permis a un predateur de ne pas voir ses proies. Surprenant. Du fait, les lois de la nature s'appliquent avec violence a votre cas...\n");
+																			printf ("\n Allez, recommencez. Et n'oubliez pas qu'on est pas chez Spielberg, ici...\n");
+																		}
+																	}
+																	
+																	if(repPlayer==2 && tamponRepPlayer==3){
+																		tamponRepPlayer=4;
+																		printf ("\n Crier n'est probablement pas la meilleure idee du monde quand on veut se faire discret.\n");
+																		printf ("\n Je me retiendrais de parler de selection naturelle et vous conseillerais simplement de reessayer... une fois que vous aurez fini d'etre digere.\n");
+																	}
+																	
+																	if(repPlayer==3 && tamponRepPlayer==3){
+																		tamponRepPlayer=3;
+																		printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+																		printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+																		printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+																		printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+																		printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+																		printf ("\n Paulo : Evidement qu'il l'a !\n");
+																		printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+																		printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+																		printf ("\n************************************************ \n");
+																		printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+																		printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+																		printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+																		printf ("\n************************************************ \n");
+																			
+																		scanf("%d", &repPlayer);
+																		if(repPlayer==1 && tamponRepPlayer==3){
+																			tamponRepPlayer=4;
+																			printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+																			printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+																		}
+																			
+																		if(repPlayer==2 && tamponRepPlayer==3){
+																			tamponRepPlayer=2;
+																			printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+																			printf ("\n Rancuniere : paulo ! Attrappe !\n");
+																			printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+																			printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+																				
+																			printf ("\n************************************************ \n");
+																			printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+																			printf ("\n2) Vous tentez de recuperer le bocal. \n");
+																			printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+																			printf ("\n************************************************ \n");
+																				
+																			scanf("%d", &repPlayer);
+																			if(repPlayer==1 && tamponRepPlayer==2){
+																				tamponRepPlayer=4;
+																				printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+																				printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+																				printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+																			}
+																				
+																			if(repPlayer==2 && tamponRepPlayer==2){
+																				tamponRepPlayer=2;
+																				printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																				printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																				printf ("\n************************************************ \n");
+																				printf ("\n Vous lui jetez le bocal dessus.\n");
+																				printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																				printf ("\n Vous changez d'avis et tournez les talons.\n");
+																				printf ("\n************************************************ \n");
+																					
+																					
+																				if(repPlayer==1 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																					printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																					printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																					printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																					printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+																				}
+																					
+																				if(repPlayer==2 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																					printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																					printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																					printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																					printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																					printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																					printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+																				}
+																					
+																				if(repPlayer==3 && tamponRepPlayer==2){
+																					tamponRepPlayer=4;
+																					printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																					printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																				}
+																			}
+																			
+																			if(repPlayer==3 && tamponRepPlayer==2){
+																				tamponRepPlayer=4;
+																				printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																				printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																			}
+																		}
+																		
+																		if(repPlayer==3 && tamponRepPlayer==3){
+																			tamponRepPlayer=4;
+																			printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+																			printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+																			printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+																			printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+																			printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+																			printf ("\n VICTOIRE... ?\n");
+																		}
+																		
+																		
+																	}
+																	
+																}
+															}
 													
 													if(repPlayer==3 && tamponRepPlayer==1){
 														tamponRepPlayer=4;
@@ -4706,8 +6413,8 @@ int main () {
 								printf ("\n LELO.\n");
 							}
 						}
+					
 				}
-			
 				
 				if (repPlayer == 3 && tamponRepPlayer == 1){
 					tamponRepPlayer=4;
@@ -4718,6 +6425,7 @@ int main () {
 			
 			
 			
+				
 		}
 		
 		//SCENAR POULET
@@ -4810,8 +6518,292 @@ int main () {
 								
 								if(repPlayer==2 && tamponRepPlayer==1){
 									tamponRepPlayer=2;
-									printf ("\n \n");
-								}
+										printf ("\n Vous partez au trousses de la bete, bocal en main en prenant garde a ne pas vous faire reperer. Vous n'avez pas encore trouve comment regler ce probleme de taille, apres tout.\n");
+										printf ("\n En arrivant aux murs de l'ecole, vous la voyez penetrer dans l'aile Ouest, l'aile des professeurs, en brisant negligement une fenetre comme s'il n'y avait rien.\n");
+										printf ("\n Vous la suivez discretement en esperant qu'elle ne vous entendra pas. L'aile Ouest, a cette heure-ci, est vide de ses occupants, heureusement.\n");
+										printf ("\n Alors que la creature tourne a l'angle d'un couloir, elle se retourne brusquement dans votre direction !\n");
+										printf ("\n************************************************ \n");
+										printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+										printf ("\n2) Vous lui jetez le bocal dessus dans un reflexe digne d'un belliciste ninja \n");
+										printf ("\n3) Vous vous cachez a l'angle du mur en priant pour qu'une creature aux sens aiguises ne vous remarque pas.\n");
+										printf ("\n************************************************ \n");
+										
+										scanf("%d", &repPlayer);
+										if(repPlayer==1 && tamponRepPlayer==2){
+											tamponRepPlayer=4;
+											printf ("\n J'ai un scoop pour vous. Vous courez moins vite qu'une manticore.\n");
+											printf ("\n Vous etes donc sauvagement decede. RIP.\n");
+											printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+										}
+										
+										if(repPlayer==2 && tamponRepPlayer==2){
+											tamponRepPlayer=4;
+											printf ("\n Voila qui est embarassant... le bocal rebondit negligement sur la creature qui, vexee, vous devore sur le champ\n");
+											printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+										}
+										
+										if(repPlayer==3 && tamponRepPlayer==2){
+											tamponRepPlayer=3;
+											printf ("\n Vous vous cachez immediatement a l'angle du mur, en vous faisant le plus petit possible.\n");
+											printf ("\n La creature fait quelques pas dans votre direction en reniflant bruyament... puis fait demi-tour. Vous avez eu de la chance.\n");
+											printf ("\n Ou peut-etre pas tant de chance que ca puisque les voix lointaines de deux eleves, arrivant de votre cote du couloir, s'elevent soudain !\n");
+											printf ("\n Un jeune garçon marchant en chaussettes, le front orne d'un bandeau a cornes de bouc, et une jeune fille portant un manteau noir brode d'or arrivent dans votre direction !\n");
+											printf ("\n Rancuniere l'Apprentie-Sorciere : Je ne comprend toujours pas pourquoi on cherche ici et pas dans la foret...Bouketin nous a pourtant dit que le bocal serait dans la foret, quand on l'a croise.\n");
+											printf ("\n Paulo le Nouveau : Parce que, si j'etais une manticore, le premier endroit ou j'irais, c'est ici. Des couloirs vides avec de la bouffe pas loin, c'est pile ce qu'il lui faut.\n");
+											printf ("\n Oui mais le bocal est ferme...\n");
+											printf ("\n D'experience, je sais qu'un bocal qui doit rester ferme finit toujours par etre ouvert...\n");
+											printf ("\n \n");
+											printf ("\n La manticore ne les a pas encore entendu, mais ca ne saurait tarder...elle se fige et tend ce qui lui sert d'oreille...\n");
+											printf ("\n************************************************ \n");
+											printf ("\n1) Vous leur faites signe de se taire en faisant le moins de bruit possible.\n");
+											printf ("\n2) Vous leur intimmez de se taire immediatement !\n");
+											printf ("\n3) C'est foutu, vous partez en courant !\n");
+											printf ("\n************************************************ \n");
+											
+											scanf("%d", &repPlayer);
+											if(repPlayer==1 && tamponRepPlayer==3){
+												tamponRepPlayer=1;
+												printf ("\n En approchant, Paulo et Rancuniere vous remarquent, de loin. Rancuniere fronce les sourcils avec agacement devant vos gesticulations silencieuse.\n");
+												printf ("\n Rancuniere : Qu'est-ce que tu veux, a gesticuler comme un guignol, toi ?\n");
+												printf ("\n L'injonction de Rancuniere aletre la manticore, qui se retourne brusquement et approche de vous. trop tard, ses yeux se dardent vers vous !\n");
+												printf ("\n************************************************ \n");
+												printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+												printf ("\n2) Vous lui jetez le bocal dessus avec l'energie du desespoir \n");
+												printf ("\n3) Vous ne bougez plus ! Sa vision est basee sur le mouvement...\n");
+												printf ("\n************************************************ \n");
+												
+												scanf("%d", &repPlayer);
+												if(repPlayer==1 && tamponRepPlayer==1){
+													tamponRepPlayer=1;
+													printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+													printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+													printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+													printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+													printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+													printf ("\n Paulo : Evidement qu'il l'a !\n");
+													printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+													printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+													printf ("\n************************************************ \n");
+													printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+													printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+													printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+													printf ("\n************************************************ \n");
+													
+													scanf("%d", &repPlayer);
+													if(repPlayer==1 && tamponRepPlayer==1){
+														tamponRepPlayer=4;
+														printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+														printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+													}
+													
+													if(repPlayer==2 && tamponRepPlayer==1){
+														tamponRepPlayer=2;
+														printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+														printf ("\n Rancuniere : paulo ! Attrappe !\n");
+														printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+														printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+														
+														printf ("\n************************************************ \n");
+														printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+														printf ("\n2) Vous tentez de recuperer le bocal. \n");
+														printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+														printf ("\n************************************************ \n");
+														
+														scanf("%d", &repPlayer);
+														if(repPlayer==1 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+															printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+															printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+														}
+														
+														if(repPlayer==2 && tamponRepPlayer==2){
+															tamponRepPlayer=2;
+															printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+															printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+															printf ("\n************************************************ \n");
+															printf ("\n Vous lui jetez le bocal dessus.\n");
+															printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+															printf ("\n Vous changez d'avis et tournez les talons.\n");
+															printf ("\n************************************************ \n");
+															
+															
+															if(repPlayer==1 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+															}
+															
+															if(repPlayer==2 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+															}
+															
+															if(repPlayer==3 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+															}
+														}
+														
+														if(repPlayer==3 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+															printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+														}
+													}
+													
+													if(repPlayer==3 && tamponRepPlayer==1){
+														tamponRepPlayer=4;
+														printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+														printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+														printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+														printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+														printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+														printf ("\n VICTOIRE... ?\n");
+													}
+												}
+												
+												if(repPlayer==2 && tamponRepPlayer==1){
+													tamponRepPlayer=4;
+													printf ("\n Vous jetez le bocal sur la creature, a bout portant, droit dans son oeil. La bete se redresse en hurlant tandis que le petit recipient roule au sol et que vous vous figez de terreur.\n");
+													printf ("\n Alors que la maticore tourne vers elle un regard charge de haine et leve une patte griffue pour vous arracher la tete, vous etes soudain repousse sur le mur par une vague d'energie doree.\n");
+													printf ("\n Rancuniere Paulo ! Le bocal ! \n");
+													printf ("\n Paulo : Le... oh nom d'un bouc !\n");
+													printf ("\n En quelques secondes, Paulo le Nouveau s'elance vers le bocal et se jette au sol, glissant sur ses chaussettes pour slider au sol afin d'attrapper le bocal au vol en evitant la patte de la manticore.\n");
+													printf ("\n Paulo : Rancuniere ! L'incantation !\n");
+													printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+													printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+													printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+													printf ("\n VICTOIRE... ?\n");
+												}
+												
+												if(repPlayer==3 && tamponRepPlayer==1){
+													tamponRepPlayer=4;
+													printf ("\n Ah tiens non. L'evoloution n'a pas permis a un predateur de ne pas voir ses proies. Surprenant. Du fait, les lois de la nature s'appliquent avec violence a votre cas...\n");
+													printf ("\n Allez, recommencez. Et n'oubliez pas qu'on est pas chez Spielberg, ici...\n");
+												}
+											}
+											
+											if(repPlayer==2 && tamponRepPlayer==3){
+												tamponRepPlayer=4;
+												printf ("\n Crier n'est probablement pas la meilleure idee du monde quand on veut se faire discret.\n");
+												printf ("\n Je me retiendrais de parler de selection naturelle et vous conseillerais simplement de reessayer... une fois que vous aurez fini d'etre digere.\n");
+											}
+											
+											if(repPlayer==3 && tamponRepPlayer==3){
+												tamponRepPlayer=3;
+												printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+												printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+												printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+												printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+												printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+												printf ("\n Paulo : Evidement qu'il l'a !\n");
+												printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+												printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+												printf ("\n************************************************ \n");
+												printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+												printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+												printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+												printf ("\n************************************************ \n");
+													
+												scanf("%d", &repPlayer);
+												if(repPlayer==1 && tamponRepPlayer==3){
+													tamponRepPlayer=4;
+													printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+													printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+												}
+													
+												if(repPlayer==2 && tamponRepPlayer==3){
+													tamponRepPlayer=2;
+													printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+													printf ("\n Rancuniere : paulo ! Attrappe !\n");
+													printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+													printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+														
+													printf ("\n************************************************ \n");
+													printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+													printf ("\n2) Vous tentez de recuperer le bocal. \n");
+													printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+													printf ("\n************************************************ \n");
+														
+													scanf("%d", &repPlayer);
+													if(repPlayer==1 && tamponRepPlayer==2){
+														tamponRepPlayer=4;
+														printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+														printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+														printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+													}
+														
+													if(repPlayer==2 && tamponRepPlayer==2){
+														tamponRepPlayer=2;
+														printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+														printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+														printf ("\n************************************************ \n");
+														printf ("\n Vous lui jetez le bocal dessus.\n");
+														printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+														printf ("\n Vous changez d'avis et tournez les talons.\n");
+														printf ("\n************************************************ \n");
+															
+															
+														if(repPlayer==1 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+															printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+															printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+															printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+															printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+														}
+															
+														if(repPlayer==2 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+															printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+															printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+															printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+															printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+															printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+															printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+														}
+															
+														if(repPlayer==3 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+															printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+														}
+													}
+													
+													if(repPlayer==3 && tamponRepPlayer==2){
+														tamponRepPlayer=4;
+														printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+														printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+													}
+												}
+												
+												if(repPlayer==3 && tamponRepPlayer==3){
+													tamponRepPlayer=4;
+													printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+													printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+													printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+													printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+													printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+													printf ("\n VICTOIRE... ?\n");
+												}
+												
+												
+											}
+											
+										}
+									}
 								
 								if(repPlayer==3 && tamponRepPlayer==1){
 									tamponRepPlayer=4;
@@ -5307,79 +7299,357 @@ int main () {
 						//suite Bouketin
 						if(repPlayer==2 && tamponRepPlayer==1){
 							tamponRepPlayer=2;
-							if(repPlayer==2 && tamponRepPlayer==2){
-							tamponRepPlayer=2;
-							printf ("\n Bouketin : C'que j'fais là ? Bah ca s'voit pas ? Comment ca, non ca s'voit pas ? Rohlala. Bon, j't'explique. J'avais confie une manticore en bocal a Magi. Me d'mande pas pourquoi. Ni comment j'ai fait entrer une manticore dans un bocal.\n");
-							printf ("\n Enfin bref, en tout cas Magicien l'a fait tomber dans les chiottes. Ouais ca la fout mal. Te vexe pas, Magi.\n");
-							printf ("\n Bref, j'arrive pas a recuperer l'bocal. Les canalisations doivent d'ja l'avoir degage dans la riviere qui coule dans les bois, mais va falloir qu'j'aille prev'nir l'Directeur...\n");
-							printf ("\n Alors, puisque t'es la, ca m'arrangerait qu't'aille me l'chercher. T'inquiete pas, l'bocal est bien ferme, aucun risque.\n");
-							printf ("\n************************************************ \n");
-							printf ("\n1) Vous refermez la porte. \n");
-							printf ("\n2) Vous acceptez et vous rendez immediatement dans les bois. \n");
-							printf ("\n3) Vous allez immediatement le denoncer au directeur ! \n");
-							printf ("\n************************************************ \n");
-							
-							scanf("%d", &repPlayer);
-							if(repPlayer==1 && tamponRepPlayer==2){
-								tamponRepPlayer=4;
-								printf ("\n Vous refermez la porte et faites demi-tour, quittant rapidement les toilettes pour, soudain, tomber sur Fossoyeur le Conteur, ce drole de type qui erre souvent dans les couloirs de l'ecole.\n");
-								printf ("\n Fossoyeur : Quoi, encore ? Pardon, c'est peut-etre la premiere fois pour toi, mais moi je commence a en avoir assez de te corriger constament. Tu gache l'histoire la !\n");
-								printf ("\n Allez desole mais tu dois recommencer...et fais un effort, cette fois ! je ne peux pas tout faire moi meme. C'est quand meme pas complique de taper 2. Ahlala...\n");
-							}
-							//foret
-							if(repPlayer==2 && tamponRepPlayer==2){
-								tamponRepPlayer=2;
-								printf ("\n Vous rendez dans la foret qui entoure l'ecole. Apres avoir marche plusieurs minuttes, vous approchez du bosquet de bouleaux dores qu'a fait planter le Directeur pres de la riviere.\n");
-								printf ("\n L'eau de la riviere est calme et claire, mais le bruit de son ruisselement est soudain interrompu par un rale douloureux provenant des arbres proches.\n");
-								printf ("\n Vous approchez et trouvez, adosse contre un bouleau, l'immense Mc krame le Jardinier, dont l'epee de deux metres, allongee a cote de lui, peine a egaler la taille.\n");
-								printf ("\n Il semble blesse et, a ses pieds, repose un petit bocal ouvert.\n");
+								printf ("\n Bouketin : C'que j'fais là ? Bah ca s'voit pas ? Comment ca, non ca s'voit pas ? Rohlala. Bon, j't'explique. J'avais confie une manticore en bocal a Magi. Me d'mande pas pourquoi. Ni comment j'ai fait entrer une manticore dans un bocal.\n");
+								printf ("\n Enfin bref, en tout cas Magicien l'a fait tomber dans les chiottes. Ouais ca la fout mal. Te vexe pas, Magi.\n");
+								printf ("\n Bref, j'arrive pas a recuperer l'bocal. Les canalisations doivent d'ja l'avoir degage dans la riviere qui coule dans les bois, mais va falloir qu'j'aille prev'nir l'Directeur...\n");
+								printf ("\n Alors, puisque t'es la, ca m'arrangerait qu't'aille me l'chercher. T'inquiete pas, l'bocal est bien ferme, aucun risque.\n");
 								printf ("\n************************************************ \n");
-								printf ("\n1) Vous lui demandez ce qu'il s'est passe. \n");
-								printf ("\n2) Vous detalez directement. Ce qui lui a fait ca est peut-etre encore dans les parages ! \n");
-								printf ("\n3) Vous tendez l'oreille et observez attentivement, pour vous assurer que tout est sur avant de vous avancer.\n");
+								printf ("\n1) Vous refermez la porte. \n");
+								printf ("\n2) Vous acceptez et vous rendez immediatement dans les bois. \n");
+								printf ("\n3) Vous allez immediatement le denoncer au directeur ! \n");
 								printf ("\n************************************************ \n");
-								//la manticore
+								
 								scanf("%d", &repPlayer);
 								if(repPlayer==1 && tamponRepPlayer==2){
-									tamponRepPlayer=1;
-									printf ("\n Mc krame tourne la tête vers vous, vous frolant presque le visage de son enorme moustache\n");
-									printf ("\n Mc Krame : J'ai trouve un bocal dans la riviere... j'aurais pas du l'ouvrir... il y avait... une manticore... fais gaffe, gamin, elle est toujours dans le coin...\n");
-									printf ("\n Effectivement, vous entendez soudain un craquement bruyant derriere vous. Entre les arbres, vous pouvez voir l'enorme silhouette de la manticore s'eloigner en direction de l'ecole...\n");
-									printf ("\n************************************************ \n");
-									printf ("\n1) Vous prenez l'epee et partez aux trousses de la manticore.\n");
-									printf ("\n2) Vous prenez le bocal et partez aux trousses de la manticore.\n");
-									printf ("\n3) Vous restez aupres de Mc Krame en priant pour que la creature ne revienne pas.\n");
-									printf ("\n************************************************ \n");
-									
-									scanf("%d", &repPlayer);
-									if(repPlayer==1 && tamponRepPlayer==1){
-										tamponRepPlayer=4;
-										printf ("\n Vous vous etes peut-etre un peu surrestime... cette epee fait deux metres, vous croyiez vraiment que vous alliez pouvoir la soulever ? C'est chose faite. La porter, en revanche....\n");
-										printf ("\n Elle vous est retombe sur le pied et vient de vous sectionner trois orteils... il ne vous reste plus qu'a attendre avec Mc Krame et... en fait non, le bruit qu'a fait l'epee a attire l'attention du monstre.\n");
-										printf ("\n Naturelement, un diner pareil servit sur un plateau, ca ne se refuse pas... Vous avez bon gout, si ca vous rassure.\n");
-										printf ("\n Perdu. Allez, on reessaye sans mourir...\n");
-									}
-									
-									if(repPlayer==2 && tamponRepPlayer==1){
-										tamponRepPlayer=2;
-										printf ("\n \n");
-									}
-									
-									if(repPlayer==3 && tamponRepPlayer==1){
-										tamponRepPlayer=4;
-										printf ("\n Vous avez bient fait. la creature s'eloigne sans vous avoir vu. Vous vous assurez que Mc Krame souffre le moins possible de ses blessures et, au bout de plusieurs heures, on vient vous chercher.\n");
-										printf ("\n La situation a ete maitrise par d'autres eleves, tout va mieux. Pour vous remercier, Mc Krame intercede en votre faveur aupres de Tapadkoeur. le Directeur accepte de vous laisser passer l'annee suivante.\n");
-										printf ("\n Vous avez gagne en restant en securite. Bravo. Clap clap. Vous avez reussi a esquiver tout le fun... VICTOIRE...\n");
-									}
-								}
-								
-								if(repPlayer==2 && tamponRepPlayer==2){
 									tamponRepPlayer=4;
-									printf ("\nEffectivement, c'etait toujours dans les parrages. Et, effectivement, ca vous a mange. Et Effectivement, vous etes mort. \n");
-									printf ("\nDu fait, c'est une defaite brutale. On evite de prendre le meme et on recommence ?\n");
+									printf ("\n Vous refermez la porte et faites demi-tour, quittant rapidement les toilettes pour, soudain, tomber sur Fossoyeur le Conteur, ce drole de type qui erre souvent dans les couloirs de l'ecole.\n");
+									printf ("\n Fossoyeur : Quoi, encore ? Pardon, c'est peut-etre la premiere fois pour toi, mais moi je commence a en avoir assez de te corriger constament. Tu gache l'histoire la !\n");
+									printf ("\n Allez desole mais tu dois recommencer...et fais un effort, cette fois ! je ne peux pas tout faire moi meme. C'est quand meme pas complique de taper 2. Ahlala...\n");
 								}
-								//la Creature
-								if(repPlayer==3 && tamponRepPlayer==2){
+								//foret
+								if(repPlayer==2 && tamponRepPlayer==2){
+									tamponRepPlayer=2;
+									printf ("\n Vous rendez dans la foret qui entoure l'ecole. Apres avoir marche plusieurs minuttes, vous approchez du bosquet de bouleaux dores qu'a fait planter le Directeur pres de la riviere.\n");
+									printf ("\n L'eau de la riviere est calme et claire, mais le bruit de son ruisselement est soudain interrompu par un rale douloureux provenant des arbres proches.\n");
+									printf ("\n Vous approchez et trouvez, adosse contre un bouleau, l'immense Mc krame le Jardinier, dont l'epee de deux metres, allongee a cote de lui, peine a egaler la taille.\n");
+									printf ("\n Il semble blesse et, a ses pieds, repose un petit bocal ouvert.\n");
+									printf ("\n************************************************ \n");
+									printf ("\n1) Vous lui demandez ce qu'il s'est passe. \n");
+									printf ("\n2) Vous detalez directement. Ce qui lui a fait ca est peut-etre encore dans les parages ! \n");
+									printf ("\n3) Vous tendez l'oreille et observez attentivement, pour vous assurer que tout est sur avant de vous avancer.\n");
+									printf ("\n************************************************ \n");
+									//la manticore
+									scanf("%d", &repPlayer);
+									if(repPlayer==1 && tamponRepPlayer==2){
+										tamponRepPlayer=1;
+										printf ("\n Mc krame tourne la tête vers vous, vous frolant presque le visage de son enorme moustache\n");
+										printf ("\n Mc Krame : J'ai trouve un bocal dans la riviere... j'aurais pas du l'ouvrir... il y avait... une manticore... fais gaffe, gamin, elle est toujours dans le coin...\n");
+										printf ("\n Effectivement, vous entendez soudain un craquement bruyant derriere vous. Entre les arbres, vous pouvez voir l'enorme silhouette de la manticore s'eloigner en direction de l'ecole...\n");
+										printf ("\n************************************************ \n");
+										printf ("\n1) Vous prenez l'epee et partez aux trousses de la manticore.\n");
+										printf ("\n2) Vous prenez le bocal et partez aux trousses de la manticore.\n");
+										printf ("\n3) Vous restez aupres de Mc Krame en priant pour que la creature ne revienne pas.\n");
+										printf ("\n************************************************ \n");
+										
+										scanf("%d", &repPlayer);
+										if(repPlayer==1 && tamponRepPlayer==1){
+											tamponRepPlayer=4;
+											printf ("\n Vous vous etes peut-etre un peu surrestime... cette epee fait deux metres, vous croyiez vraiment que vous alliez pouvoir la soulever ? C'est chose faite. La porter, en revanche....\n");
+											printf ("\n Elle vous est retombe sur le pied et vient de vous sectionner trois orteils... il ne vous reste plus qu'a attendre avec Mc Krame et... en fait non, le bruit qu'a fait l'epee a attire l'attention du monstre.\n");
+											printf ("\n Naturelement, un diner pareil servit sur un plateau, ca ne se refuse pas... Vous avez bon gout, si ca vous rassure.\n");
+											printf ("\n Perdu. Allez, on reessaye sans mourir...\n");
+										}
+										
+										
+										//dans l'aile Ouest
+										if(repPlayer==2 && tamponRepPlayer==1){
+											tamponRepPlayer=2;
+											printf ("\n Vous partez au trousses de la bete, bocal en main en prenant garde a ne pas vous faire reperer. Vous n'avez pas encore trouve comment regler ce probleme de taille, apres tout.\n");
+											printf ("\n En arrivant aux murs de l'ecole, vous la voyez penetrer dans l'aile Ouest, l'aile des professeurs, en brisant negligement une fenetre comme s'il n'y avait rien.\n");
+											printf ("\n Vous la suivez discretement en esperant qu'elle ne vous entendra pas. L'aile Ouest, a cette heure-ci, est vide de ses occupants, heureusement.\n");
+											printf ("\n Alors que la creature tourne a l'angle d'un couloir, elle se retourne brusquement dans votre direction !\n");
+											printf ("\n************************************************ \n");
+											printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+											printf ("\n2) Vous lui jetez le bocal dessus dans un reflexe digne d'un belliciste ninja \n");
+											printf ("\n3) Vous vous cachez a l'angle du mur en priant pour qu'une creature aux sens aiguises ne vous remarque pas.\n");
+											printf ("\n************************************************ \n");
+											
+											scanf("%d", &repPlayer);
+											if(repPlayer==1 && tamponRepPlayer==2){
+												tamponRepPlayer=4;
+												printf ("\n J'ai un scoop pour vous. Vous courez moins vite qu'une manticore.\n");
+												printf ("\n Vous etes donc sauvagement decede. RIP.\n");
+												printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+											}
+											
+											if(repPlayer==2 && tamponRepPlayer==2){
+												tamponRepPlayer=4;
+												printf ("\n Voila qui est embarassant... le bocal rebondit negligement sur la creature qui, vexee, vous devore sur le champ\n");
+												printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+											}
+											
+											if(repPlayer==3 && tamponRepPlayer==2){
+												tamponRepPlayer=3;
+												printf ("\n Vous vous cachez immediatement a l'angle du mur, en vous faisant le plus petit possible.\n");
+												printf ("\n La creature fait quelques pas dans votre direction en reniflant bruyament... puis fait demi-tour. Vous avez eu de la chance.\n");
+												printf ("\n Ou peut-etre pas tant de chance que ca puisque les voix lointaines de deux eleves, arrivant de votre cote du couloir, s'elevent soudain !\n");
+												printf ("\n Un jeune garçon marchant en chaussettes, le front orne d'un bandeau a cornes de bouc, et une jeune fille portant un manteau noir brode d'or arrivent dans votre direction !\n");
+												printf ("\n Rancuniere l'Apprentie-Sorciere : Je ne comprend toujours pas pourquoi on cherche ici et pas dans la foret...Bouketin nous a pourtant dit que le bocal serait dans la foret, quand on l'a croise.\n");
+												printf ("\n Paulo le Nouveau : Parce que, si j'etais une manticore, le premier endroit ou j'irais, c'est ici. Des couloirs vides avec de la bouffe pas loin, c'est pile ce qu'il lui faut.\n");
+												printf ("\n Oui mais le bocal est ferme...\n");
+												printf ("\n D'experience, je sais qu'un bocal qui doit rester ferme finit toujours par etre ouvert...\n");
+												printf ("\n \n");
+												printf ("\n La manticore ne les a pas encore entendu, mais ca ne saurait tarder...elle se fige et tend ce qui lui sert d'oreille...\n");
+												printf ("\n************************************************ \n");
+												printf ("\n1) Vous leur faites signe de se taire en faisant le moins de bruit possible.\n");
+												printf ("\n2) Vous leur intimmez de se taire immediatement !\n");
+												printf ("\n3) C'est foutu, vous partez en courant !\n");
+												printf ("\n************************************************ \n");
+												
+												scanf("%d", &repPlayer);
+												if(repPlayer==1 && tamponRepPlayer==3){
+													tamponRepPlayer=1;
+													printf ("\n En approchant, Paulo et Rancuniere vous remarquent, de loin. Rancuniere fronce les sourcils avec agacement devant vos gesticulations silencieuse.\n");
+													printf ("\n Rancuniere : Qu'est-ce que tu veux, a gesticuler comme un guignol, toi ?\n");
+													printf ("\n L'injonction de Rancuniere aletre la manticore, qui se retourne brusquement et approche de vous. trop tard, ses yeux se dardent vers vous !\n");
+													printf ("\n************************************************ \n");
+													printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+													printf ("\n2) Vous lui jetez le bocal dessus avec l'energie du desespoir \n");
+													printf ("\n3) Vous ne bougez plus ! Sa vision est basee sur le mouvement...\n");
+													printf ("\n************************************************ \n");
+													
+													scanf("%d", &repPlayer);
+													if(repPlayer==1 && tamponRepPlayer==1){
+														tamponRepPlayer=1;
+														printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+														printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+														printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+														printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+														printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+														printf ("\n Paulo : Evidement qu'il l'a !\n");
+														printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+														printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+														printf ("\n************************************************ \n");
+														printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+														printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+														printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+														printf ("\n************************************************ \n");
+														
+														scanf("%d", &repPlayer);
+														if(repPlayer==1 && tamponRepPlayer==1){
+															tamponRepPlayer=4;
+															printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+															printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+														}
+														
+														if(repPlayer==2 && tamponRepPlayer==1){
+															tamponRepPlayer=2;
+															printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+															printf ("\n Rancuniere : paulo ! Attrappe !\n");
+															printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+															printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+															
+															printf ("\n************************************************ \n");
+															printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+															printf ("\n2) Vous tentez de recuperer le bocal. \n");
+															printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+															printf ("\n************************************************ \n");
+															
+															scanf("%d", &repPlayer);
+															if(repPlayer==1 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+																printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+																printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+															}
+															
+															if(repPlayer==2 && tamponRepPlayer==2){
+																tamponRepPlayer=2;
+																printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+																printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+																printf ("\n************************************************ \n");
+																printf ("\n Vous lui jetez le bocal dessus.\n");
+																printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+																printf ("\n Vous changez d'avis et tournez les talons.\n");
+																printf ("\n************************************************ \n");
+																
+																
+																if(repPlayer==1 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																	printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																	printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																	printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																	printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+																}
+																
+																if(repPlayer==2 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																	printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																	printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																	printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																	printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																	printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																	printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+																}
+																
+																if(repPlayer==3 && tamponRepPlayer==2){
+																	tamponRepPlayer=4;
+																	printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																	printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+																}
+															}
+															
+															if(repPlayer==3 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+															}
+														}
+														
+														if(repPlayer==3 && tamponRepPlayer==1){
+															tamponRepPlayer=4;
+															printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+															printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+															printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+															printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+															printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+															printf ("\n VICTOIRE... ?\n");
+														}
+													}
+													
+													if(repPlayer==2 && tamponRepPlayer==1){
+														tamponRepPlayer=4;
+														printf ("\n Vous jetez le bocal sur la creature, a bout portant, droit dans son oeil. La bete se redresse en hurlant tandis que le petit recipient roule au sol et que vous vous figez de terreur.\n");
+														printf ("\n Alors que la maticore tourne vers elle un regard charge de haine et leve une patte griffue pour vous arracher la tete, vous etes soudain repousse sur le mur par une vague d'energie doree.\n");
+														printf ("\n Rancuniere Paulo ! Le bocal ! \n");
+														printf ("\n Paulo : Le... oh nom d'un bouc !\n");
+														printf ("\n En quelques secondes, Paulo le Nouveau s'elance vers le bocal et se jette au sol, glissant sur ses chaussettes pour slider au sol afin d'attrapper le bocal au vol en evitant la patte de la manticore.\n");
+														printf ("\n Paulo : Rancuniere ! L'incantation !\n");
+														printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+														printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+														printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+														printf ("\n VICTOIRE... ?\n");
+													}
+													
+													if(repPlayer==3 && tamponRepPlayer==1){
+														tamponRepPlayer=4;
+														printf ("\n Ah tiens non. L'evoloution n'a pas permis a un predateur de ne pas voir ses proies. Surprenant. Du fait, les lois de la nature s'appliquent avec violence a votre cas...\n");
+														printf ("\n Allez, recommencez. Et n'oubliez pas qu'on est pas chez Spielberg, ici...\n");
+													}
+												}
+												
+												if(repPlayer==2 && tamponRepPlayer==3){
+													tamponRepPlayer=4;
+													printf ("\n Crier n'est probablement pas la meilleure idee du monde quand on veut se faire discret.\n");
+													printf ("\n Je me retiendrais de parler de selection naturelle et vous conseillerais simplement de reessayer... une fois que vous aurez fini d'etre digere.\n");
+												}
+												
+												if(repPlayer==3 && tamponRepPlayer==3){
+													tamponRepPlayer=3;
+													printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+													printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+													printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+													printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+													printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+													printf ("\n Paulo : Evidement qu'il l'a !\n");
+													printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+													printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+													printf ("\n************************************************ \n");
+													printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+													printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+													printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+													printf ("\n************************************************ \n");
+														
+													scanf("%d", &repPlayer);
+													if(repPlayer==1 && tamponRepPlayer==3){
+														tamponRepPlayer=4;
+														printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+														printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+													}
+														
+													if(repPlayer==2 && tamponRepPlayer==3){
+														tamponRepPlayer=2;
+														printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+														printf ("\n Rancuniere : paulo ! Attrappe !\n");
+														printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+														printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+															
+														printf ("\n************************************************ \n");
+														printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+														printf ("\n2) Vous tentez de recuperer le bocal. \n");
+														printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+														printf ("\n************************************************ \n");
+															
+														scanf("%d", &repPlayer);
+														if(repPlayer==1 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+															printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+															printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+														}
+															
+														if(repPlayer==2 && tamponRepPlayer==2){
+															tamponRepPlayer=2;
+															printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+															printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+															printf ("\n************************************************ \n");
+															printf ("\n Vous lui jetez le bocal dessus.\n");
+															printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+															printf ("\n Vous changez d'avis et tournez les talons.\n");
+															printf ("\n************************************************ \n");
+																
+																
+															if(repPlayer==1 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+															}
+																
+															if(repPlayer==2 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+															}
+																
+															if(repPlayer==3 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+															}
+														}
+														
+														if(repPlayer==3 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+															printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+														}
+													}
+													
+													if(repPlayer==3 && tamponRepPlayer==3){
+														tamponRepPlayer=4;
+														printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+														printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+														printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+														printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+														printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+														printf ("\n VICTOIRE... ?\n");
+													}
+													
+													
+												}
+												
+											}
+										}
+										
+										if(repPlayer==3 && tamponRepPlayer==3){
+											tamponRepPlayer=4;
+											printf ("\n Vous avez bient fait. la creature s'eloigne sans vous avoir vu. Vous vous assurez que Mc Krame souffre le moins possible de ses blessures et, au bout de plusieurs heures, on vient vous chercher.\n");
+											printf ("\n La situation a ete maitrise par d'autres eleves, tout va mieux. Pour vous remercier, Mc Krame intercede en votre faveur aupres de Tapadkoeur. le Directeur accepte de vous laisser passer l'annee suivante.\n");
+											printf ("\n Vous avez gagne en restant en securite. Bravo. Clap clap. Vous avez reussi a esquiver tout le fun... VICTOIRE...\n");
+										}
+									}
+										//la Creature
+									if(repPlayer==3 && tamponRepPlayer==2){
 									tamponRepPlayer=3;
 									printf ("\n Vous entendez soudain un craquement bruyant derriere vous. Entre les arbres, vous pouvez voir la silhouette d'une enorme creature s'eloigner en direction de l'ecole...\n");
 									printf ("\n************************************************ \n");
@@ -5693,7 +7963,22 @@ int main () {
 										printf ("\n Vous avez gagne en restant en securite. Bravo. Clap clap. Vous avez reussi a esquiver tout le fun... VICTOIRE...\n");
 									}
 								}
-							}
+									
+									if(repPlayer==3 && tamponRepPlayer==1){
+										tamponRepPlayer=4;
+										printf ("\n Vous avez bient fait. la creature s'eloigne sans vous avoir vu. Vous vous assurez que Mc Krame souffre le moins possible de ses blessures et, au bout de plusieurs heures, on vient vous chercher.\n");
+										printf ("\n La situation a ete maitrise par d'autres eleves, tout va mieux. Pour vous remercier, Mc Krame intercede en votre faveur aupres de Tapadkoeur. le Directeur accepte de vous laisser passer l'annee suivante.\n");
+										printf ("\n Vous avez gagne en restant en securite. Bravo. Clap clap. Vous avez reussi a esquiver tout le fun... VICTOIRE...\n");
+									}
+								}
+								
+								if(repPlayer==2 && tamponRepPlayer==2){
+									tamponRepPlayer=4;
+									printf ("\nEffectivement, c'etait toujours dans les parrages. Et, effectivement, ca vous a mange. Et Effectivement, vous etes mort. \n");
+									printf ("\nDu fait, c'est une defaite brutale. On evite de prendre le meme et on recommence ?\n");
+								}
+							
+						
 								
 							if(repPlayer==3 && tamponRepPlayer==2){
 								tamponRepPlayer=4;
@@ -5704,7 +7989,7 @@ int main () {
 						
 							
 						}
-						}
+					
 						
 						if(repPlayer==3 && tamponRepPlayer==1){
 							tamponRepPlayer=4;
@@ -5793,7 +8078,291 @@ int main () {
 									
 									if(repPlayer==2 && tamponRepPlayer==1){
 										tamponRepPlayer=2;
-										printf ("\n \n");
+										printf ("\n Vous partez au trousses de la bete, bocal en main en prenant garde a ne pas vous faire reperer. Vous n'avez pas encore trouve comment regler ce probleme de taille, apres tout.\n");
+										printf ("\n En arrivant aux murs de l'ecole, vous la voyez penetrer dans l'aile Ouest, l'aile des professeurs, en brisant negligement une fenetre comme s'il n'y avait rien.\n");
+										printf ("\n Vous la suivez discretement en esperant qu'elle ne vous entendra pas. L'aile Ouest, a cette heure-ci, est vide de ses occupants, heureusement.\n");
+										printf ("\n Alors que la creature tourne a l'angle d'un couloir, elle se retourne brusquement dans votre direction !\n");
+										printf ("\n************************************************ \n");
+										printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+										printf ("\n2) Vous lui jetez le bocal dessus dans un reflexe digne d'un belliciste ninja \n");
+										printf ("\n3) Vous vous cachez a l'angle du mur en priant pour qu'une creature aux sens aiguises ne vous remarque pas.\n");
+										printf ("\n************************************************ \n");
+										
+										scanf("%d", &repPlayer);
+										if(repPlayer==1 && tamponRepPlayer==2){
+											tamponRepPlayer=4;
+											printf ("\n J'ai un scoop pour vous. Vous courez moins vite qu'une manticore.\n");
+											printf ("\n Vous etes donc sauvagement decede. RIP.\n");
+											printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+										}
+										
+										if(repPlayer==2 && tamponRepPlayer==2){
+											tamponRepPlayer=4;
+											printf ("\n Voila qui est embarassant... le bocal rebondit negligement sur la creature qui, vexee, vous devore sur le champ\n");
+											printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+										}
+										
+										if(repPlayer==3 && tamponRepPlayer==2){
+											tamponRepPlayer=3;
+											printf ("\n Vous vous cachez immediatement a l'angle du mur, en vous faisant le plus petit possible.\n");
+											printf ("\n La creature fait quelques pas dans votre direction en reniflant bruyament... puis fait demi-tour. Vous avez eu de la chance.\n");
+											printf ("\n Ou peut-etre pas tant de chance que ca puisque les voix lointaines de deux eleves, arrivant de votre cote du couloir, s'elevent soudain !\n");
+											printf ("\n Un jeune garçon marchant en chaussettes, le front orne d'un bandeau a cornes de bouc, et une jeune fille portant un manteau noir brode d'or arrivent dans votre direction !\n");
+											printf ("\n Rancuniere l'Apprentie-Sorciere : Je ne comprend toujours pas pourquoi on cherche ici et pas dans la foret...Bouketin nous a pourtant dit que le bocal serait dans la foret, quand on l'a croise.\n");
+											printf ("\n Paulo le Nouveau : Parce que, si j'etais une manticore, le premier endroit ou j'irais, c'est ici. Des couloirs vides avec de la bouffe pas loin, c'est pile ce qu'il lui faut.\n");
+											printf ("\n Oui mais le bocal est ferme...\n");
+											printf ("\n D'experience, je sais qu'un bocal qui doit rester ferme finit toujours par etre ouvert...\n");
+											printf ("\n \n");
+											printf ("\n La manticore ne les a pas encore entendu, mais ca ne saurait tarder...elle se fige et tend ce qui lui sert d'oreille...\n");
+											printf ("\n************************************************ \n");
+											printf ("\n1) Vous leur faites signe de se taire en faisant le moins de bruit possible.\n");
+											printf ("\n2) Vous leur intimmez de se taire immediatement !\n");
+											printf ("\n3) C'est foutu, vous partez en courant !\n");
+											printf ("\n************************************************ \n");
+											
+											scanf("%d", &repPlayer);
+											if(repPlayer==1 && tamponRepPlayer==3){
+												tamponRepPlayer=1;
+												printf ("\n En approchant, Paulo et Rancuniere vous remarquent, de loin. Rancuniere fronce les sourcils avec agacement devant vos gesticulations silencieuse.\n");
+												printf ("\n Rancuniere : Qu'est-ce que tu veux, a gesticuler comme un guignol, toi ?\n");
+												printf ("\n L'injonction de Rancuniere aletre la manticore, qui se retourne brusquement et approche de vous. trop tard, ses yeux se dardent vers vous !\n");
+												printf ("\n************************************************ \n");
+												printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+												printf ("\n2) Vous lui jetez le bocal dessus avec l'energie du desespoir \n");
+												printf ("\n3) Vous ne bougez plus ! Sa vision est basee sur le mouvement...\n");
+												printf ("\n************************************************ \n");
+												
+												scanf("%d", &repPlayer);
+												if(repPlayer==1 && tamponRepPlayer==1){
+													tamponRepPlayer=1;
+													printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+													printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+													printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+													printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+													printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+													printf ("\n Paulo : Evidement qu'il l'a !\n");
+													printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+													printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+													printf ("\n************************************************ \n");
+													printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+													printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+													printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+													printf ("\n************************************************ \n");
+													
+													scanf("%d", &repPlayer);
+													if(repPlayer==1 && tamponRepPlayer==1){
+														tamponRepPlayer=4;
+														printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+														printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+													}
+													
+													if(repPlayer==2 && tamponRepPlayer==1){
+														tamponRepPlayer=2;
+														printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+														printf ("\n Rancuniere : paulo ! Attrappe !\n");
+														printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+														printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+														
+														printf ("\n************************************************ \n");
+														printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+														printf ("\n2) Vous tentez de recuperer le bocal. \n");
+														printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+														printf ("\n************************************************ \n");
+														
+														scanf("%d", &repPlayer);
+														if(repPlayer==1 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+															printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+															printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+														}
+														
+														if(repPlayer==2 && tamponRepPlayer==2){
+															tamponRepPlayer=2;
+															printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+															printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+															printf ("\n************************************************ \n");
+															printf ("\n Vous lui jetez le bocal dessus.\n");
+															printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+															printf ("\n Vous changez d'avis et tournez les talons.\n");
+															printf ("\n************************************************ \n");
+															
+															
+															if(repPlayer==1 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+															}
+															
+															if(repPlayer==2 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+															}
+															
+															if(repPlayer==3 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+															}
+														}
+														
+														if(repPlayer==3 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+															printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+														}
+													}
+													
+													if(repPlayer==3 && tamponRepPlayer==1){
+														tamponRepPlayer=4;
+														printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+														printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+														printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+														printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+														printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+														printf ("\n VICTOIRE... ?\n");
+													}
+												}
+												
+												if(repPlayer==2 && tamponRepPlayer==1){
+													tamponRepPlayer=4;
+													printf ("\n Vous jetez le bocal sur la creature, a bout portant, droit dans son oeil. La bete se redresse en hurlant tandis que le petit recipient roule au sol et que vous vous figez de terreur.\n");
+													printf ("\n Alors que la maticore tourne vers elle un regard charge de haine et leve une patte griffue pour vous arracher la tete, vous etes soudain repousse sur le mur par une vague d'energie doree.\n");
+													printf ("\n Rancuniere Paulo ! Le bocal ! \n");
+													printf ("\n Paulo : Le... oh nom d'un bouc !\n");
+													printf ("\n En quelques secondes, Paulo le Nouveau s'elance vers le bocal et se jette au sol, glissant sur ses chaussettes pour slider au sol afin d'attrapper le bocal au vol en evitant la patte de la manticore.\n");
+													printf ("\n Paulo : Rancuniere ! L'incantation !\n");
+													printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+													printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+													printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+													printf ("\n VICTOIRE... ?\n");
+												}
+												
+												if(repPlayer==3 && tamponRepPlayer==1){
+													tamponRepPlayer=4;
+													printf ("\n Ah tiens non. L'evoloution n'a pas permis a un predateur de ne pas voir ses proies. Surprenant. Du fait, les lois de la nature s'appliquent avec violence a votre cas...\n");
+													printf ("\n Allez, recommencez. Et n'oubliez pas qu'on est pas chez Spielberg, ici...\n");
+												}
+											}
+											
+											if(repPlayer==2 && tamponRepPlayer==3){
+												tamponRepPlayer=4;
+												printf ("\n Crier n'est probablement pas la meilleure idee du monde quand on veut se faire discret.\n");
+												printf ("\n Je me retiendrais de parler de selection naturelle et vous conseillerais simplement de reessayer... une fois que vous aurez fini d'etre digere.\n");
+											}
+											
+											if(repPlayer==3 && tamponRepPlayer==3){
+												tamponRepPlayer=3;
+												printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+												printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+												printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+												printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+												printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+												printf ("\n Paulo : Evidement qu'il l'a !\n");
+												printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+												printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+												printf ("\n************************************************ \n");
+												printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+												printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+												printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+												printf ("\n************************************************ \n");
+													
+												scanf("%d", &repPlayer);
+												if(repPlayer==1 && tamponRepPlayer==3){
+													tamponRepPlayer=4;
+													printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+													printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+												}
+													
+												if(repPlayer==2 && tamponRepPlayer==3){
+													tamponRepPlayer=2;
+													printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+													printf ("\n Rancuniere : paulo ! Attrappe !\n");
+													printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+													printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+														
+													printf ("\n************************************************ \n");
+													printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+													printf ("\n2) Vous tentez de recuperer le bocal. \n");
+													printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+													printf ("\n************************************************ \n");
+														
+													scanf("%d", &repPlayer);
+													if(repPlayer==1 && tamponRepPlayer==2){
+														tamponRepPlayer=4;
+														printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+														printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+														printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+													}
+														
+													if(repPlayer==2 && tamponRepPlayer==2){
+														tamponRepPlayer=2;
+														printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+														printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+														printf ("\n************************************************ \n");
+														printf ("\n Vous lui jetez le bocal dessus.\n");
+														printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+														printf ("\n Vous changez d'avis et tournez les talons.\n");
+														printf ("\n************************************************ \n");
+															
+															
+														if(repPlayer==1 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+															printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+															printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+															printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+															printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+														}
+															
+														if(repPlayer==2 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+															printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+															printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+															printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+															printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+															printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+															printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+														}
+															
+														if(repPlayer==3 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+															printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+														}
+													}
+													
+													if(repPlayer==3 && tamponRepPlayer==2){
+														tamponRepPlayer=4;
+														printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+														printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+													}
+												}
+												
+												if(repPlayer==3 && tamponRepPlayer==3){
+													tamponRepPlayer=4;
+													printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+													printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+													printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+													printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+													printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+													printf ("\n VICTOIRE... ?\n");
+												}
+												
+												
+											}
+											
+										}
 									}
 									
 									if(repPlayer==3 && tamponRepPlayer==1){
@@ -6191,8 +8760,293 @@ int main () {
 							
 							if(repPlayer==2 && tamponRepPlayer==1){
 								tamponRepPlayer=2;
-								printf ("\n \n");
-							}
+								
+										printf ("\n Vous partez au trousses de la bete, bocal en main en prenant garde a ne pas vous faire reperer. Vous n'avez pas encore trouve comment regler ce probleme de taille, apres tout.\n");
+										printf ("\n En arrivant aux murs de l'ecole, vous la voyez penetrer dans l'aile Ouest, l'aile des professeurs, en brisant negligement une fenetre comme s'il n'y avait rien.\n");
+										printf ("\n Vous la suivez discretement en esperant qu'elle ne vous entendra pas. L'aile Ouest, a cette heure-ci, est vide de ses occupants, heureusement.\n");
+										printf ("\n Alors que la creature tourne a l'angle d'un couloir, elle se retourne brusquement dans votre direction !\n");
+										printf ("\n************************************************ \n");
+										printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+										printf ("\n2) Vous lui jetez le bocal dessus dans un reflexe digne d'un belliciste ninja \n");
+										printf ("\n3) Vous vous cachez a l'angle du mur en priant pour qu'une creature aux sens aiguises ne vous remarque pas.\n");
+										printf ("\n************************************************ \n");
+										
+										scanf("%d", &repPlayer);
+										if(repPlayer==1 && tamponRepPlayer==2){
+											tamponRepPlayer=4;
+											printf ("\n J'ai un scoop pour vous. Vous courez moins vite qu'une manticore.\n");
+											printf ("\n Vous etes donc sauvagement decede. RIP.\n");
+											printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+										}
+										
+										if(repPlayer==2 && tamponRepPlayer==2){
+											tamponRepPlayer=4;
+											printf ("\n Voila qui est embarassant... le bocal rebondit negligement sur la creature qui, vexee, vous devore sur le champ\n");
+											printf ("\n Vous avez perdu... quand elle aura fini de vous digerer, vous pourrez toujours recommencer...\n");
+										}
+										
+										if(repPlayer==3 && tamponRepPlayer==2){
+											tamponRepPlayer=3;
+											printf ("\n Vous vous cachez immediatement a l'angle du mur, en vous faisant le plus petit possible.\n");
+											printf ("\n La creature fait quelques pas dans votre direction en reniflant bruyament... puis fait demi-tour. Vous avez eu de la chance.\n");
+											printf ("\n Ou peut-etre pas tant de chance que ca puisque les voix lointaines de deux eleves, arrivant de votre cote du couloir, s'elevent soudain !\n");
+											printf ("\n Un jeune garçon marchant en chaussettes, le front orne d'un bandeau a cornes de bouc, et une jeune fille portant un manteau noir brode d'or arrivent dans votre direction !\n");
+											printf ("\n Rancuniere l'Apprentie-Sorciere : Je ne comprend toujours pas pourquoi on cherche ici et pas dans la foret...Bouketin nous a pourtant dit que le bocal serait dans la foret, quand on l'a croise.\n");
+											printf ("\n Paulo le Nouveau : Parce que, si j'etais une manticore, le premier endroit ou j'irais, c'est ici. Des couloirs vides avec de la bouffe pas loin, c'est pile ce qu'il lui faut.\n");
+											printf ("\n Oui mais le bocal est ferme...\n");
+											printf ("\n D'experience, je sais qu'un bocal qui doit rester ferme finit toujours par etre ouvert...\n");
+											printf ("\n \n");
+											printf ("\n La manticore ne les a pas encore entendu, mais ca ne saurait tarder...elle se fige et tend ce qui lui sert d'oreille...\n");
+											printf ("\n************************************************ \n");
+											printf ("\n1) Vous leur faites signe de se taire en faisant le moins de bruit possible.\n");
+											printf ("\n2) Vous leur intimmez de se taire immediatement !\n");
+											printf ("\n3) C'est foutu, vous partez en courant !\n");
+											printf ("\n************************************************ \n");
+											
+											scanf("%d", &repPlayer);
+											if(repPlayer==1 && tamponRepPlayer==3){
+												tamponRepPlayer=1;
+												printf ("\n En approchant, Paulo et Rancuniere vous remarquent, de loin. Rancuniere fronce les sourcils avec agacement devant vos gesticulations silencieuse.\n");
+												printf ("\n Rancuniere : Qu'est-ce que tu veux, a gesticuler comme un guignol, toi ?\n");
+												printf ("\n L'injonction de Rancuniere aletre la manticore, qui se retourne brusquement et approche de vous. trop tard, ses yeux se dardent vers vous !\n");
+												printf ("\n************************************************ \n");
+												printf ("\n1) Vous tournez les talons en courant comme un derate. \n");
+												printf ("\n2) Vous lui jetez le bocal dessus avec l'energie du desespoir \n");
+												printf ("\n3) Vous ne bougez plus ! Sa vision est basee sur le mouvement...\n");
+												printf ("\n************************************************ \n");
+												
+												scanf("%d", &repPlayer);
+												if(repPlayer==1 && tamponRepPlayer==1){
+													tamponRepPlayer=1;
+													printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+													printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+													printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+													printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+													printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+													printf ("\n Paulo : Evidement qu'il l'a !\n");
+													printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+													printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+													printf ("\n************************************************ \n");
+													printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+													printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+													printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+													printf ("\n************************************************ \n");
+													
+													scanf("%d", &repPlayer);
+													if(repPlayer==1 && tamponRepPlayer==1){
+														tamponRepPlayer=4;
+														printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+														printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+													}
+													
+													if(repPlayer==2 && tamponRepPlayer==1){
+														tamponRepPlayer=2;
+														printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+														printf ("\n Rancuniere : paulo ! Attrappe !\n");
+														printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+														printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+														
+														printf ("\n************************************************ \n");
+														printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+														printf ("\n2) Vous tentez de recuperer le bocal. \n");
+														printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+														printf ("\n************************************************ \n");
+														
+														scanf("%d", &repPlayer);
+														if(repPlayer==1 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+															printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+															printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+														}
+														
+														if(repPlayer==2 && tamponRepPlayer==2){
+															tamponRepPlayer=2;
+															printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+															printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+															printf ("\n************************************************ \n");
+															printf ("\n Vous lui jetez le bocal dessus.\n");
+															printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+															printf ("\n Vous changez d'avis et tournez les talons.\n");
+															printf ("\n************************************************ \n");
+															
+															
+															if(repPlayer==1 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+																printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+																printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+																printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+																printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+															}
+															
+															if(repPlayer==2 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+																printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+																printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+																printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+																printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+																printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+																printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+															}
+															
+															if(repPlayer==3 && tamponRepPlayer==2){
+																tamponRepPlayer=4;
+																printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+																printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+															}
+														}
+														
+														if(repPlayer==3 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+															printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+														}
+													}
+													
+													if(repPlayer==3 && tamponRepPlayer==1){
+														tamponRepPlayer=4;
+														printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+														printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+														printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+														printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+														printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+														printf ("\n VICTOIRE... ?\n");
+													}
+												}
+												
+												if(repPlayer==2 && tamponRepPlayer==1){
+													tamponRepPlayer=4;
+													printf ("\n Vous jetez le bocal sur la creature, a bout portant, droit dans son oeil. La bete se redresse en hurlant tandis que le petit recipient roule au sol et que vous vous figez de terreur.\n");
+													printf ("\n Alors que la maticore tourne vers elle un regard charge de haine et leve une patte griffue pour vous arracher la tete, vous etes soudain repousse sur le mur par une vague d'energie doree.\n");
+													printf ("\n Rancuniere Paulo ! Le bocal ! \n");
+													printf ("\n Paulo : Le... oh nom d'un bouc !\n");
+													printf ("\n En quelques secondes, Paulo le Nouveau s'elance vers le bocal et se jette au sol, glissant sur ses chaussettes pour slider au sol afin d'attrapper le bocal au vol en evitant la patte de la manticore.\n");
+													printf ("\n Paulo : Rancuniere ! L'incantation !\n");
+													printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+													printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+													printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+													printf ("\n VICTOIRE... ?\n");
+												}
+												
+												if(repPlayer==3 && tamponRepPlayer==1){
+													tamponRepPlayer=4;
+													printf ("\n Ah tiens non. L'evoloution n'a pas permis a un predateur de ne pas voir ses proies. Surprenant. Du fait, les lois de la nature s'appliquent avec violence a votre cas...\n");
+													printf ("\n Allez, recommencez. Et n'oubliez pas qu'on est pas chez Spielberg, ici...\n");
+												}
+											}
+											
+											if(repPlayer==2 && tamponRepPlayer==3){
+												tamponRepPlayer=4;
+												printf ("\n Crier n'est probablement pas la meilleure idee du monde quand on veut se faire discret.\n");
+												printf ("\n Je me retiendrais de parler de selection naturelle et vous conseillerais simplement de reessayer... une fois que vous aurez fini d'etre digere.\n");
+											}
+											
+											if(repPlayer==3 && tamponRepPlayer==3){
+												tamponRepPlayer=3;
+												printf ("\n Vous tournez les talons, attirant immediatement l'attention de la manticore, qui se precipite en beuglant a vos trousses !\n");
+												printf ("\n Vous foncez vers Paulo et Rancuniere, en esperant qu'ils vous sauveront du monstre, mais ces derniers s'esquivent d'un pas sur le cote, vous cedant le passage autant qu'a la creature...\n");
+												printf ("\n Que Paulo attrappe immediatement par la queue et entreprend d'escalader ! Rancuniere, quand a elle, insuffle une vive lueur doree dans ses chaussures et se precipite a vos trousses.\n");
+												printf ("\n Frappant la manticore dans l'oeil gauche, Paulo la fait deriver sur la droite, la poussant a se cogner contre un mur en permettant a Rancuniere de vous rejoindre.\n");
+												printf ("\n Rancuniere : Le bocal ! C'est toi qui l'a ?\n");
+												printf ("\n Paulo : Evidement qu'il l'a !\n");
+												printf ("\n Rancuniere : Est-ce que tu l'a !?\n");
+												printf ("\n Vos jambes commencent a faiblir. Paulo n'a pas l'air de parvenir a ralentir suffisament la manticore pour que vous y echappiez encore longtemps...\n");
+												printf ("\n************************************************ \n");
+												printf ("\n1) Vous vous plaquez au sol, en esperant que la manticore vous evitera. \n");
+												printf ("\n2) Vous donnez le bocal a Rancuniere. \n");
+												printf ("\n3) Vous suppliez Rancuniere de vous porter.\n");
+												printf ("\n************************************************ \n");
+													
+												scanf("%d", &repPlayer);
+												if(repPlayer==1 && tamponRepPlayer==3){
+													tamponRepPlayer=4;
+													printf ("\n Ah. Non. Elle ne vous a pas evite. C'est lourd une manticore. Tres lourd. Et c'est fragile, une tete.\n");
+													printf ("\n Vous avez perdu, je crois que c'est assez evident. Vous devriez peut-etre reessayer... non ?\n");
+												}
+													
+												if(repPlayer==2 && tamponRepPlayer==3){
+													tamponRepPlayer=2;
+													printf ("\n Vous tendez le bocal a Rancuniere, qui s'en empare immediatement en recitant une incantation magique qui fait s'illuminer le recipent d'une petite lueur bleue.\n");
+													printf ("\n Rancuniere : paulo ! Attrappe !\n");
+													printf ("\n Rancuniere jette le bocal a Paulo, mais la manticore decide soudain de freiner pour le faire descendre. Paulo s'aggrippe comme il peut mais bascule juste devant la gueule de la manticore !\n");
+													printf ("\n En freinant pour faire demi-tour, Rancuniere derape et s'etale par terre, laissant echapper le bocal qui s'en va rouler derriere la manticore !\n");
+														
+													printf ("\n************************************************ \n");
+													printf ("\n1) Vous foncez a la rescousse de Paulo ! \n");
+													printf ("\n2) Vous tentez de recuperer le bocal. \n");
+													printf ("\n3) Vous n'allez pas risquer votre peau a les aider, non mais pas fou non !\n");
+													printf ("\n************************************************ \n");
+														
+													scanf("%d", &repPlayer);
+													if(repPlayer==1 && tamponRepPlayer==2){
+														tamponRepPlayer=4;
+														printf ("\n Dans un elan de courage incroyable vous foncez vers la manticore et poussez Paulo au moment ou le monstre allait refermer ses machoires sur le jeune garcon. Vous etes un heros !\n");
+														printf ("\n Bon. Un heros mort, puisque lesdites machoires se referment sur vous a la place. Mais un heros !\n");
+														printf ("\n Alors est-ce que c'est VRAIMENT une defaite ? (oui. completement.)\n");
+													}
+														
+													if(repPlayer==2 && tamponRepPlayer==2){
+														tamponRepPlayer=2;
+														printf ("\n Vous foncez vers le bocal en esquivant la manticore comme vous pouvez. Alors que le monstre allait refermer ses machoires sur Paulo, Rancuniere tire violement son ami par les jambes, le mettant hors de portee de la creature.\n");
+														printf ("\n Vous profitez de la diversion pour vous emparer du bocal mais la manticore a compris ce que vous aviez en tete et se retourne vers vous en bavant de rage !\n");
+														printf ("\n************************************************ \n");
+														printf ("\n Vous lui jetez le bocal dessus.\n");
+														printf ("\n Vous reposez le bocal en esperant qu'elle vous pardonnera\n");
+														printf ("\n Vous changez d'avis et tournez les talons.\n");
+														printf ("\n************************************************ \n");
+															
+															
+														if(repPlayer==1 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n Vous jetez le bocal ensorcele sur la manticore. Dans un petit 'bump' assez embarassant, le recipient rebondit sur la creature et vous revient dessus, goulot en avant...\n");
+															printf ("\n Par le sortilege, vous etes aspire dans le bocal in-extremis. Au moins vous etes en securite...\n");
+															printf ("\n Mais on peut dire que vous avez bien tout gache. Oh bien sur, Paulo et Rancuniere vont s'en sortir. Et la manticore ira dans un autre bocal. Mais vous etes vire. Vire a vie.\n");
+															printf ("\n Tapadkoeur : VOUS AVEZ PERDU ! ET C'EST BIEN MERITE, BOUGRE DE RESIDUT PROLETAIRE ! RESTEZ DANS VOTRE BOCAL, TANT QUE VOUS Y ETES !\n");
+															printf ("\n Peut-etre devrions nous reprendre a zero, je crois que quelque chose ne s'est pas passe comme prevu...\n");
+														}
+															
+														if(repPlayer==2 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n Vous reposez doucement le bocal et adressant un petit sourire desole a la creature. Pas de chance, elle s'en contremoque et se jette sur vous, toutes griffes dehors !\n");
+															printf ("\n En hurlant, vous reculez d'un pas. Et, alors que les griffes du monstre ne sont plus qu'a quelques millimetres de votre visage, la manticore se fige...\n");
+															printf ("\n En se jetant sur vous, elle a atterrit sur le bocal ! Et c'est dans un hurlement de tous les diables que la creature se fait aspirer dans le recipient.\n");
+															printf ("\n Le couloir plonge dans le silence, tandis que vous observer la petite creature s'agiter innutilement dans son bocal et que Paulo et Rancuniere se relevent.\n");
+															printf ("\n Paulo : He be... toi... toi t'es au Schnaps.\n");
+															printf ("\n Pour avoir sauve deux eleves, epargne a l'ecole d'avoir une creature antropophage rodant dans ses couloirs, fait bien plus que ce que votre stage requerrait, Tapadkoeur vous remercie et vous permet sans probleme de passer l'annee prochaine.\n");
+															printf ("\n VICTOIRE DU SCHNAPS !!!\n");
+														}
+															
+														if(repPlayer==3 && tamponRepPlayer==2){
+															tamponRepPlayer=4;
+															printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+															printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+														}
+													}
+													
+													if(repPlayer==3 && tamponRepPlayer==2){
+														tamponRepPlayer=4;
+														printf ("\n La manticore vous a visiblement pris en grippe puisqu'elle neglige Paulo et Rancuniere et se jette a vos trousses. Sans Paulo pour la ralentir, il va sans dire que vous ne faites pas le poids a la course.\n");
+														printf ("\n Quand bien meme ne vous aurait-elle pas devore, vous l'auriez bien merite. Ca va pas de les abandonner comme ca, non ? J'y tiens, moi, a ces personnages. Allez on recommence. Tss...\n");
+													}
+												}
+												
+												if(repPlayer==3 && tamponRepPlayer==3){
+													tamponRepPlayer=4;
+													printf ("\n En levant les yeux au ciel avec un agacement certain, Rancuniere vous arrache le bocal des mains et l'envoie a Paulo le Nouveau, toujours perche sur la manticore.\n");
+													printf ("\n Rancuniere : Paulo ! Attrappe ca !\n");
+													printf ("\n Rancuniere recite immediatement une incantation, tandis que Paulo plaque le bout du bocal contre la manticore, la reaspirant dans le petit artefact;\n");
+													printf ("\n Dans la bouteille, la creature s'agite avec impuissance tandis que vous vous decolez du mur...\n");
+													printf ("\n Vous n'aurez pas servi a grand chose mais c'etait... intense. En tout cas, Paulo le Nouveau, tres aimable, a intercede en votre faveur aupres de Bouketin, qui a lui meme intercede aupres de Tapadkoeur... enfin bref vous avez gagne.\n");
+													printf ("\n VICTOIRE... ?\n");
+												}
+												
+												
+											}
+											
+										}
+									}
 							
 							if(repPlayer==3 && tamponRepPlayer==1){
 								tamponRepPlayer=4;
@@ -6533,12 +9387,12 @@ int main () {
 					printf ("\n Alors je pense que nous devrions vite recommencer la partie pour comprendre ce que cet animal fiche la, avant de nous faire devorer, vous en dites quoi ? hein ? oui hein.\n");
 				}
 			
+		
+	
+	
+	
+	
+	
 		}
-	
-	
-	
-	
-	
-	
 	return 0;
 }
